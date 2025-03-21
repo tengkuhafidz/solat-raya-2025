@@ -15,12 +15,20 @@ export default function Home() {
   const [selectedSession, setSelectedSession] = useState<string>("all")
   const [selectedLanguage, setSelectedLanguage] = useState<string>("all")
   const [locationType, setLocationType] = useState<string>("all")  // changed from showMosquesOnly
+  const [searchTerm, setSearchTerm] = useState("")
 
   // Get unique districts for filter dropdown
   const districts = ["all", ...new Set(prayerSessionsData.map((session) => session.District))]
 
   useEffect(() => {
     let result = [...prayerSessionsData]
+
+    // Apply search filter
+    if (searchTerm) {
+      result = result.filter((session) => 
+        session["Location Name"].toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    }
 
     // Apply district filter
     if (selectedDistrict !== "all") {
@@ -65,8 +73,8 @@ export default function Home() {
     // Sort by location name in reverse order
     result.sort((a, b) => b["Location Name"].localeCompare(a["Location Name"]))
 
-    setFilteredSessions(result)
-  }, [selectedDistrict, selectedSession, selectedLanguage, locationType])
+    setFilteredSessions(result as PrayerSession[]) // Type assertion to fix TS error
+  }, [selectedDistrict, selectedSession, selectedLanguage, locationType, searchTerm]) // Add searchTerm to dependencies
 
   return (
     <main className="min-h-screen bg-white hari-raya-pattern">
@@ -93,6 +101,8 @@ export default function Home() {
           setSelectedLanguage={setSelectedLanguage}
           locationType={locationType}
           setLocationType={setLocationType}
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
         />
 
         <div className="mt-4 mb-2 text-sm text-gray-500 flex items-center">

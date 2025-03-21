@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Filter } from "lucide-react"
+import { Input } from "@/components/ui/input"
 
 interface FilterPanelProps {
   districts: string[]
@@ -15,6 +16,8 @@ interface FilterPanelProps {
   setSelectedLanguage: (language: string) => void
   locationType: string
   setLocationType: (type: string) => void
+  searchTerm: string
+  setSearchTerm: (term: string) => void
 }
 
 export function FilterPanel({
@@ -27,6 +30,8 @@ export function FilterPanel({
   setSelectedLanguage,
   locationType,
   setLocationType,
+  searchTerm,
+  setSearchTerm,
 }: FilterPanelProps) {
   // Helper function to get district color (same as in prayer-session-card)
   const getDistrictColor = (district: string) => {
@@ -50,6 +55,16 @@ export function FilterPanel({
         <div className="flex items-center mb-4">
           <Filter className="h-4 w-4 text-primary mr-2" />
           <h2 className="text-lg font-medium">Filter Sessions</h2>
+        </div>
+
+        <div className="mb-4">
+          <Input
+            type="text"
+            placeholder="Search by location name..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="border-gray-200"
+          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
