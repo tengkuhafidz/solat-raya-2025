@@ -8,7 +8,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31310423505768,
+      "lng": 103.912705910938
+    }
   },
   {
     "District": "South",
@@ -21,7 +25,11 @@
     "Session 2 Khutbah Language": "Arabic",
     "Session 3 Khutbah Language": "Arabic",
     "Muslimah Prayer Space": "Session 2 & 3 only",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.30448398785878,
+      "lng": 103.85368950305
+    }
   },
   {
     "District": "North",
@@ -31,7 +39,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.43973607638992,
+      "lng": 103.800724168225
+    }
   },
   {
     "District": "West",
@@ -41,7 +53,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.43315271543517,
+      "lng": 103.832942401086
+    }
   },
   {
     "District": "North",
@@ -51,7 +67,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.43315271543517,
+      "lng": 103.832942401086
+    }
   },
   {
     "District": "East",
@@ -61,7 +81,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Session 2 only",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32339895187489,
+      "lng": 103.907302807628
+    }
   },
   {
     "District": "South",
@@ -71,7 +95,11 @@
     "Session 1 Khutbah Language": "Arabic*",
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available"
+    "Muslimah Prayer Space": "Available",
+    "coordinates": {
+      "lat": 1.28032210562498,
+      "lng": 103.847216983935
+    }
   },
   {
     "District": "South",
@@ -81,7 +109,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.27520461393923,
+      "lng": 103.81927883949
+    }
   },
   {
     "District": "East",
@@ -91,7 +123,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32697321797939,
+      "lng": 103.926385559867
+    }
   },
   {
     "District": "South",
@@ -101,7 +137,11 @@
     "Session 1 Khutbah Language": "English*",
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available"
+    "Muslimah Prayer Space": "Available",
+    "coordinates": {
+      "lat": 1.3037754296615,
+      "lng": 103.836653682351
+    }
   },
   {
     "District": "West",
@@ -111,7 +151,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Session 1 only",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.37496290426076,
+      "lng": 103.71645968696
+    }
   },
   {
     "District": "West",
@@ -121,7 +165,11 @@
     "Session 2 Khutbah Language": "English & Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32318810145539,
+      "lng": 103.794916529327
+    }
   },
   {
     "District": "West",
@@ -131,7 +179,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Session 1 only",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.37813023615872,
+      "lng": 103.772762574397
+    }
   },
   {
     "District": "East",
@@ -141,7 +193,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.40124380624977,
+      "lng": 103.901498997391
+    }
   },
   {
     "District": "East",
@@ -151,7 +207,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.37099780404453,
+      "lng": 103.964110386822
+    }
   },
   {
     "District": "North",
@@ -161,7 +221,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.36920170635718,
+      "lng": 103.875626641606
+    }
   },
   {
     "District": "North",
@@ -171,7 +235,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.33672709655552,
+      "lng": 103.874461693657
+    }
   },
   {
     "District": "East",
@@ -181,7 +249,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Not Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.33668967461862,
+      "lng": 103.913994187667
+    }
   },
   {
     "District": "West",
@@ -191,7 +263,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": "English",
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.38264503460745,
+      "lng": 103.750010414584
+    }
   },
   {
     "District": "East",
@@ -201,7 +277,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": "Malay",
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.38344130978082,
+      "lng": 103.890251310012
+    }
   },
   {
     "District": "West",
@@ -211,7 +291,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.33921644391402,
+      "lng": 103.741421884031
+    }
   },
   {
     "District": "North",
@@ -221,7 +305,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.37052194585268,
+      "lng": 103.845904787078
+    }
   },
   {
     "District": "East",
@@ -231,7 +319,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32179653416997,
+      "lng": 103.953501109845
+    }
   },
   {
     "District": "South",
@@ -241,7 +333,11 @@
     "Session 2 Khutbah Language": "Bengali",
     "Session 3 Khutbah Language": "Tamil",
     "Muslimah Prayer Space": "Not Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.30361391565827,
+      "lng": 103.829242156982
+    }
   },
   {
     "District": "North",
@@ -251,7 +347,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35355556185729,
+      "lng": 103.851131063043
+    }
   },
   {
     "District": "North",
@@ -261,7 +361,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.44072763615816,
+      "lng": 103.771877534569
+    }
   },
   {
     "District": "West",
@@ -271,7 +375,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35165826497431,
+      "lng": 103.756024260587
+    }
   },
   {
     "District": "North",
@@ -281,7 +389,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": "Bengali",
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.45577050995774,
+      "lng": 103.819381371528
+    }
   },
   {
     "District": "West",
@@ -291,7 +403,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": "Tamil",
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.33544840128089,
+      "lng": 103.719566221744
+    }
   },
   {
     "District": "South",
@@ -301,7 +417,11 @@
     "Session 1 Khutbah Language": "English*",
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available"
+    "Muslimah Prayer Space": "Available",
+    "coordinates": {
+      "lat": 1.32073352232102,
+      "lng": 103.822590280918
+    }
   },
   {
     "District": "South",
@@ -311,7 +431,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.29884558580411,
+      "lng": 103.849843606852
+    }
   },
   {
     "District": "East",
@@ -321,7 +445,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31796445871933,
+      "lng": 103.904561547103
+    }
   },
   {
     "District": "East",
@@ -331,7 +459,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": "Booking is required for Session 1"
+    "Remarks": "Booking is required for Session 1",
+    "coordinates": {
+      "lat": 1.35528065111508,
+      "lng": 103.93993380532
+    }
   },
   {
     "District": "North",
@@ -341,7 +473,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": "Prayers to be conducted at Temp Site."
+    "Remarks": "Prayers to be conducted at Temp Site.",
+    "coordinates": {
+      "lat": 1.43686614981845,
+      "lng": 103.83434033765
+    }
   },
   {
     "District": "West",
@@ -351,7 +487,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31248504081994,
+      "lng": 103.771073229152
+    }
   },
   {
     "District": "North",
@@ -361,7 +501,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.36092931253044,
+      "lng": 103.892551072557
+    }
   },
   {
     "District": "East",
@@ -371,7 +515,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": "Bengali",
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31240484656975,
+      "lng": 103.876888600758
+    }
   },
   {
     "District": "South",
@@ -381,7 +529,11 @@
     "Session 1 Khutbah Language": "Malay*",
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available"
+    "Muslimah Prayer Space": "Available",
+    "coordinates": {
+      "lat": 1.27283943416264,
+      "lng": 103.847411373319
+    }
   },
   {
     "District": "North",
@@ -391,7 +543,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35580654058068,
+      "lng": 103.879714474791
+    }
   },
   {
     "District": "South",
@@ -401,7 +557,11 @@
     "Session 1 Khutbah Language": "Malay*",
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Not Available"
+    "Muslimah Prayer Space": "Not Available",
+    "coordinates": {
+      "lat": 1.30291798131982,
+      "lng": 103.862907913198
+    }
   },
   {
     "District": "North",
@@ -411,7 +571,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32611624278724,
+      "lng": 103.854827462535
+    }
   },
   {
     "District": "West",
@@ -421,7 +585,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.2903493238116,
+      "lng": 103.796457036966
+    }
   },
   {
     "District": "West",
@@ -431,7 +599,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32166368636589,
+      "lng": 103.738170825514
+    }
   },
   {
     "District": "West",
@@ -441,7 +613,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.29137428067036,
+      "lng": 103.771711771028
+    }
   },
   {
     "District": "South",
@@ -451,7 +627,11 @@
     "Session 2 Khutbah Language": "Tamil",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.2832630967971,
+      "lng": 103.844857938644
+    }
   },
   {
     "District": "South",
@@ -461,7 +641,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.29301137234296,
+      "lng": 103.815428353466
+    }
   },
   {
     "District": "South",
@@ -471,7 +655,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.28832868873592,
+      "lng": 103.820155323568
+    }
   },
   {
     "District": "South",
@@ -481,7 +669,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Not Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.29164028211495,
+      "lng": 103.828371406698
+    }
   },
   {
     "District": "East",
@@ -491,7 +683,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.30999797039772,
+      "lng": 103.927800438998
+    }
   },
   {
     "District": "East",
@@ -501,7 +697,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31871782896033,
+      "lng": 103.912246650011
+    }
   },
   {
     "District": "East",
@@ -511,7 +711,11 @@
     "Session 2 Khutbah Language": "Bengali",
     "Session 3 Khutbah Language": "Bengali",
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31418450398371,
+      "lng": 103.886098564499
+    }
   },
   {
     "District": "East",
@@ -521,7 +725,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Session 2 only",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31341618432483,
+      "lng": 103.898941011024
+    }
   },
   {
     "District": "West",
@@ -531,7 +739,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34851765818894,
+      "lng": 103.704984361237
+    }
   },
   {
     "District": "South",
@@ -541,7 +753,11 @@
     "Session 2 Khutbah Language": "Arabic",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.30503916442958,
+      "lng": 103.859733415078
+    }
   },
   {
     "District": "South",
@@ -551,7 +767,11 @@
     "Session 2 Khutbah Language": "Arabic",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.28258418141456,
+      "lng": 103.845954113164
+    }
   },
   {
     "District": "North",
@@ -561,7 +781,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34298997216698,
+      "lng": 103.852062475426
+    }
   },
   {
     "District": "South",
@@ -571,7 +795,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.29813057936034,
+      "lng": 103.80095202592
+    }
   },
   {
     "District": "East",
@@ -581,7 +809,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32120815100275,
+      "lng": 103.911267761495
+    }
   },
   {
     "District": "South",
@@ -591,7 +823,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.28781684606584,
+      "lng": 103.844266388888
+    }
   },
   {
     "District": "North",
@@ -601,7 +837,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.33468787442313,
+      "lng": 103.831955902164
+    }
   },
   {
     "District": "North",
@@ -611,7 +851,11 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.45909512625858,
+      "lng": 103.841747361438
+    }
   },
   {
     "District": "West",
@@ -621,7 +865,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.37322663565561,
+      "lng": 103.694349458982
+    }
   },
   {
     "District": "East",
@@ -631,7 +879,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32574679283198,
+      "lng": 103.881230367298
+    }
   },
   {
     "District": "South",
@@ -642,7 +894,11 @@
     "Session 1 Khutbah Language": "Malay*",
     "Session 2 Khutbah Language": "English*",
     "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available"
+    "Muslimah Prayer Space": "Available",
+    "coordinates": {
+      "lat": 1.30114162138115,
+      "lng": 103.860771460808
+    }
   },
   {
     "District": "South",
@@ -652,7 +908,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Not Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31300789080779,
+      "lng": 103.849141018794
+    }
   },
   {
     "District": "South",
@@ -662,7 +922,11 @@
     "Session 1 Khutbah Language": "Malay*",
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available"
+    "Muslimah Prayer Space": "Available",
+    "coordinates": {
+      "lat": 1.26631495497006,
+      "lng": 103.824254422419
+    }
   },
   {
     "District": "West",
@@ -672,7 +936,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.29878403196681,
+      "lng": 103.769167164764
+    }
   },
   {
     "District": "East",
@@ -682,7 +950,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31713992999416,
+      "lng": 103.891260934228
+    }
   },
   {
     "District": "North",
@@ -692,7 +964,11 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.29097188679383,
+      "lng": 103.776951057803
+    }
   },
   {
     "District": "East",
@@ -703,7 +979,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.33038182281246,
+      "lng": 103.885788977269
+    }
   },
   {
     "District": "East",
@@ -714,7 +994,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.33104907831935,
+      "lng": 103.935538768198
+    }
   },
   {
     "District": "East",
@@ -725,7 +1009,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.33590729186163,
+      "lng": 103.922634043137
+    }
   },
   {
     "District": "East",
@@ -736,7 +1024,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.3365778844156,
+      "lng": 103.935932127712
+    }
   },
   {
     "District": "East",
@@ -747,7 +1039,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32684923967733,
+      "lng": 103.886293541726
+    }
   },
   {
     "District": "East",
@@ -758,7 +1054,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.30267023304987,
+      "lng": 103.909040353592
+    }
   },
   {
     "District": "East",
@@ -769,7 +1069,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.30484546888462,
+      "lng": 103.914257399726
+    }
   },
   {
     "District": "East",
@@ -780,7 +1084,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.36705021516612,
+      "lng": 103.958181857039
+    }
   },
   {
     "District": "East",
@@ -791,7 +1099,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.37755384677881,
+      "lng": 103.936383536913
+    }
   },
   {
     "District": "East",
@@ -802,7 +1114,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.36570353911718,
+      "lng": 103.934756980672
+    }
   },
   {
     "District": "East",
@@ -813,7 +1129,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34744378451781,
+      "lng": 103.950617728372
+    }
   },
   {
     "District": "East",
@@ -824,7 +1144,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35221704775536,
+      "lng": 103.956804059982
+    }
   },
   {
     "District": "East",
@@ -835,7 +1159,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35742126002469,
+      "lng": 103.951661274552
+    }
   },
   {
     "District": "East",
@@ -846,7 +1174,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.36269973012518,
+      "lng": 103.957806673373
+    }
   },
   {
     "District": "East",
@@ -857,7 +1189,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34712992809362,
+      "lng": 103.935805517506
+    }
   },
   {
     "District": "East",
@@ -868,7 +1204,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35090347766615,
+      "lng": 103.931049949489
+    }
   },
   {
     "District": "East",
@@ -879,7 +1219,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35270336134679,
+      "lng": 103.934557364626
+    }
   },
   {
     "District": "East",
@@ -890,7 +1234,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34679100571296,
+      "lng": 103.940776965834
+    }
   },
   {
     "District": "East",
@@ -901,7 +1249,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34275276797807,
+      "lng": 103.950195189768
+    }
   },
   {
     "District": "North",
@@ -912,7 +1264,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.38399851132008,
+      "lng": 103.878775854657
+    }
   },
   {
     "District": "North",
@@ -923,7 +1279,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.44288368531847,
+      "lng": 103.798215801593
+    }
   },
   {
     "District": "North",
@@ -934,7 +1294,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.43323089424302,
+      "lng": 103.793327674611
+    }
   },
   {
     "District": "North",
@@ -945,7 +1309,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.4358097899325,
+      "lng": 103.792129777086
+    }
   },
   {
     "District": "North",
@@ -956,7 +1324,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.44708104147411,
+      "lng": 103.800563797362
+    }
   },
   {
     "District": "North",
@@ -967,7 +1339,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.43856288054116,
+      "lng": 103.793634541557
+    }
   },
   {
     "District": "North",
@@ -978,7 +1354,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.43464080601813,
+      "lng": 103.777670022616
+    }
   },
   {
     "District": "North",
@@ -989,7 +1369,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.43345412197149,
+      "lng": 103.83891867844
+    }
   },
   {
     "District": "North",
@@ -1000,7 +1384,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.42138604430426,
+      "lng": 103.835604224236
+    }
   },
   {
     "District": "West",
@@ -1011,7 +1399,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34461796002737,
+      "lng": 103.71113773766
+    }
   },
   {
     "District": "West",
@@ -1022,7 +1414,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34704875545729,
+      "lng": 103.713655557468
+    }
   },
   {
     "District": "West",
@@ -1033,7 +1429,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35017339059587,
+      "lng": 103.739086387813
+    }
   },
   {
     "District": "West",
@@ -1044,7 +1444,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.38555516336432,
+      "lng": 103.745261508747
+    }
   },
   {
     "District": "West",
@@ -1055,7 +1459,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.40102235751598,
+      "lng": 103.749862447053
+    }
   },
   {
     "District": "West",
@@ -1066,7 +1474,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.40201704788428,
+      "lng": 103.750489133529
+    }
   },
   {
     "District": "West",
@@ -1077,7 +1489,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.39402627739183,
+      "lng": 103.744121079543
+    }
   },
   {
     "District": "West",
@@ -1088,7 +1504,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.30676076028652,
+      "lng": 103.762363136976
+    }
   },
   {
     "District": "West",
@@ -1099,7 +1519,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.35256372860883,
+      "lng": 103.723569457588
+    }
   },
   {
     "District": "West",
@@ -1110,7 +1534,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.34699810840798,
+      "lng": 103.69452875928
+    }
   },
   {
     "District": "West",
@@ -1121,7 +1549,11 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.32035484260702,
+      "lng": 103.750300419587
+    }
   },
   {
     "District": "West",
@@ -1132,6 +1564,10 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
-    "Remarks": null
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31165973523805,
+      "lng": 103.761761494233
+    }
   }
 ]
