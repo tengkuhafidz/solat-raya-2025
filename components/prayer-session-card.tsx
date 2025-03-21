@@ -39,13 +39,15 @@ export function PrayerSessionCard({ session }: PrayerSessionCardProps) {
     ].filter((s) => s.language !== null)
 
     return (
-      <div className="space-y-1 mt-2">
+      <div className="space-y-2 mt-2">
         {sessions.map((s, index) => (
-          <div key={index} className="flex items-center text-sm">
-            <Clock className="h-4 w-4 mr-2 text-primary/70" />
-            <span className="font-medium mr-2">Session {s.number}: {s.timing}</span>
+          <div key={index} className="flex flex-col sm:flex-row sm:items-center text-sm gap-1 sm:gap-2">
+            <div className="flex items-center">
+              <Clock className="h-4 w-4 mr-2 text-primary/70 shrink-0" />
+              <span className="font-medium whitespace-nowrap">Session {s.number}: {s.timing}</span>
+            </div>
             {s.language !== "-" && (
-              <span className="text-gray-600">({s.language} Khutbah)</span>
+              <span className="text-gray-600 ml-6 sm:ml-0">({s.language} Khutbah)</span>
             )}
           </div>
         ))}
@@ -85,20 +87,20 @@ export function PrayerSessionCard({ session }: PrayerSessionCardProps) {
         </div>
       </CardHeader>
       <CardContent className="pt-4 bg-white/95">
-        <div className="border-b border-gray-100 pb-2">{renderKhutbahSessions()}</div>
+        <div className="border-b border-gray-100 pb-4">{renderKhutbahSessions()}</div>
 
-        <div className="flex items-center mt-3">
+        <div className="flex items-center mt-4">
           <Users className="h-4 w-4 mr-2 text-primary/70" />
-          <span className="text-sm">Muslimah Prayer Space:</span>
+          <span className="text-sm">Muslimah Space:</span>
           <Badge
-            variant={session["Muslimah Prayer Space"] === "Available" ? "default" : "outline"}
-            className={`ml-2 ${
-              session["Muslimah Prayer Space"] === "Available"
-                ? "bg-primary hover:bg-primary/90"
-                : "text-gray-600 border-gray-200"
-            }`}
+            variant={"outline"}
+            className={`ml-2 ${"text-gray-600 border-gray-200"}`}
           >
-            {session["Muslimah Prayer Space"]}
+            {session["Muslimah Prayer Space"] === "Not Available" ? (
+              <span>❌ {session["Muslimah Prayer Space"]}</span>
+            ) : (
+              <span>✅ {session["Muslimah Prayer Space"]}</span>
+            )}
           </Badge>
         </div>
 
