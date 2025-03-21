@@ -34,7 +34,7 @@ export function SortPanel({
               placeholder="Enter postal code"
               value={postalCode}
               onChange={handlePostalCodeChange}
-              className="border-white/20 bg-white/50 backdrop-blur"
+              className="border-white/20 bg-white/50 backdrop-blur focus-visible:ring-primary/20"
               maxLength={6}
             />
           </div>
@@ -48,8 +48,8 @@ export function SortPanel({
                 "after:animate-shine after:duration-1000"
               ],
               postalCode.length === 6 && !isLoading 
-                ? 'bg-emerald-600 hover:bg-emerald-700' 
-                : 'bg-gray-600 hover:bg-gray-300 text-gray-100'
+                ? 'bg-gray-900 hover:bg-gray-800' 
+                : 'bg-gray-600 hover:bg-gray-700 text-gray-100'
             )}
             onClick={onSortByDistance}
             disabled={postalCode.length !== 6 || isLoading}

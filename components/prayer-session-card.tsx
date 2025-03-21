@@ -43,7 +43,7 @@ export function PrayerSessionCard({ session }: PrayerSessionCardProps) {
         {sessions.map((s, index) => (
           <div key={index} className="flex flex-col sm:flex-row sm:items-center text-sm gap-1 sm:gap-2">
             <div className="flex items-center">
-              <Clock className="h-4 w-4 mr-2 text-primary/70 shrink-0" />
+              <Clock className="h-4 w-4 mr-2 text-primary shrink-0" />
               <span className="font-medium whitespace-nowrap">Session {s.number}: {s.timing}</span>
             </div>
             {s.language !== "-" && (
@@ -90,7 +90,7 @@ export function PrayerSessionCard({ session }: PrayerSessionCardProps) {
         <div className="border-b border-gray-100 pb-4">{renderKhutbahSessions()}</div>
 
         <div className="flex items-center mt-4">
-          <Users className="h-4 w-4 mr-2 text-primary/70" />
+          <Users className="h-4 w-4 mr-2 text-primary" />
           <span className="text-sm">Muslimah Space:</span>
           <Badge
             variant={"outline"}
@@ -106,7 +106,7 @@ export function PrayerSessionCard({ session }: PrayerSessionCardProps) {
 
         {session.Remarks && (
           <div className="mt-3 text-sm flex items-start">
-            <Info className="h-4 w-4 mr-2 text-secondary shrink-0 mt-0.5" />
+            <Info className="h-4 w-4 mr-2 text-primary shrink-0 mt-0.5" />
             <p className="text-gray-600 italic">{session.Remarks}</p>
           </div>
         )}

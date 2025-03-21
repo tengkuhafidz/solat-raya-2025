@@ -81,7 +81,7 @@ export function FilterPanel({
           <CollapsibleTrigger asChild>
             <Button
               variant="ghost"
-              className="w-full p-4 flex items-center justify-between"
+              className="w-full p-4 flex items-center justify-between hover:text-primary transition-colors"
             >
               <div className="flex items-center">
                 <Filter className="h-4 w-4 text-primary mr-2" />
@@ -109,7 +109,7 @@ export function FilterPanel({
                 placeholder="Search by location name..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="border-gray-200"
+                className="border-gray-200 focus-visible:ring-primary/20"
               />
             </div>
 
@@ -119,7 +119,10 @@ export function FilterPanel({
                   District
                 </Label>
                 <Select value={selectedDistrict} onValueChange={setSelectedDistrict}>
-                  <SelectTrigger id="district" className="border-gray-200">
+                  <SelectTrigger 
+                    id="district" 
+                    className="border-gray-200 focus:ring-primary/20"
+                  >
                     <SelectValue placeholder="Select district">
                       {selectedDistrict === "all" ? (
                         "All Districts"

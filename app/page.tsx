@@ -146,14 +146,15 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-white hari-raya-pattern">
-      <div className="hari-raya-header py-8">
+      {/* Hero section with purple gradient */}
+      <div className="bg-gradient-to-b from-primary-dark to-primary py-8">
         <div className="container mx-auto px-4">
           <header className="text-center mb-8">
             <div className="flex items-center justify-center mb-3">
               🕌 🌙 🇸🇬
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Solat Raya 2025</h1>
-            <p className="text-white/80 max-w-md mx-auto">Find prayer sessions across various locations</p>
+            <p className="text-white/80 max-w-md mx-auto">Find prayer sessions across various locations in Singapore</p>
           </header>
           <div className="mt-8">
             <SortPanel
@@ -188,7 +189,7 @@ export default function Home() {
           </div>
           <div className="text-xs text-gray-400">
             Source: <a href="https://ramadan.ourmasjid.sg/hari-raya-puasa-prayer-arrangements/" 
-              className="underline hover:text-gray-600"
+              className="underline hover:text-primary transition-colors"
               target="_blank"
               rel="noopener noreferrer"
             >SalaamSG</a> · Updated: 22/3/25
@@ -196,6 +197,22 @@ export default function Home() {
         </div>
 
         <PrayerSessionList sessions={filteredSessions} />
+
+        {/* Add subtle Meem plug */}
+        <div className="text-center mt-12 pt-8 border-t text-sm text-gray-400">
+          <p>
+            Built with 💜 by the team at{" "}
+            <a 
+              href="https://usemeem.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary-light transition-colors underline underline-offset-2"
+            >
+              Meem
+            </a>
+            {" "}· Singapore's trusted platform for ARS-certified Islamic teachers
+          </p>
+        </div>
       </div>
     </main>
   )
