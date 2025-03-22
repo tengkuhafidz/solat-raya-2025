@@ -35,9 +35,9 @@ export function SortPanel({
   }
 
   return (
-    <Card className="bg-white/95 backdrop-blur border-0 shadow-xl max-w-md mx-auto">
+    <Card className="bg-white/95 backdrop-blur border-0 shadow-xl max-w-lg mx-auto">
       <CardContent className="py-4">
-        <div className="flex flex-col sm:flex-row items-center gap-3">
+        <div className="flex flex-col sm:flex-row items-start gap-3">
           <div className="flex-1 w-full sm:w-auto">
             <Input
               type="text"
@@ -50,14 +50,14 @@ export function SortPanel({
             />
             {isSorted && sortedPostalCode && (
               <p className="text-xs text-slate/80 mt-1">
-                ✓ Results sorted by distance from {sortedPostalCode}
+                ✓ Sorted by distance from {sortedPostalCode}
               </p>
             )}
           </div>
           <Button
             variant="default"
             className={cn(
-              "w-full sm:w-auto whitespace-nowrap transition-colors relative overflow-hidden",
+              "w-full sm:w-auto whitespace-nowrap transition-colors relative overflow-hidden sm:mt-0",
               // Only add shine effect when disabled
               (postalCode.length !== 6 || isLoading) && [
                 "after:absolute after:inset-0 after:translate-x-[-100%] after:bg-gradient-to-r after:from-transparent after:via-white/25 after:to-transparent",
