@@ -106,7 +106,7 @@ export function FilterPanel({
             <div className="mb-4">
               <Input
                 type="text"
-                placeholder="Search by mosque name or address"
+                placeholder="Search by location name..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="border-gray-200 focus-visible:ring-primary/20"

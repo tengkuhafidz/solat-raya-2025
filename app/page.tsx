@@ -240,7 +240,6 @@ export default function Home() {
           <PrayerSessionList 
             sessions={filteredSessions} 
             scrollRef={listContainerRef}
-            userCoords={userCoords}
           />
         </div>
 
