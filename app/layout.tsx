@@ -10,6 +10,24 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Solat Raya 2025 Prayer Sessions",
   description: "Find prayer sessions across various locations for Hari Raya 2025",
+  openGraph: {
+    title: "Solat Raya 2025 Prayer Sessions",
+    description: "Find prayer sessions across various locations for Hari Raya 2025",
+    images: [
+      {
+        url: "/preview.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Solat Raya 2025 Prayer Sessions"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Solat Raya 2025 Prayer Sessions",
+    description: "Find prayer sessions across various locations for Hari Raya 2025",
+    images: ["/preview.jpg"]
+  }
 }
 
 export default function RootLayout({
