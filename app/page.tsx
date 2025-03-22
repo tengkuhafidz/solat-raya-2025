@@ -35,12 +35,8 @@ export default function Home() {
 
     // Apply all filters first
     if (searchTerm) {
-      const searchLower = searchTerm.toLowerCase()
       result = result.filter((session) => 
-        session["Location Name"].toLowerCase().includes(searchLower) ||
-        // Add address search
-        session.address?.street.toLowerCase().includes(searchLower) ||
-        session.address?.postal?.includes(searchLower)
+        session["Location Name"].toLowerCase().includes(searchTerm.toLowerCase())
       )
     }
 

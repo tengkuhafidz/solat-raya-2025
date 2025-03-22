@@ -12,10 +12,6 @@
     "coordinates": {
       "lat": 1.31310423505768,
       "lng": 103.912705910938
-    },
-    "address": {
-      "street": "90 Lorong K Telok Kurau",
-      "postal": "425723"
     }
   },
   {
@@ -33,14 +29,6 @@
     "coordinates": {
       "lat": 1.30448398785878,
       "lng": 103.85368950305
-    },
-    "address": {
-      "street": "41 Dunlop Street",
-      "postal": "209369"
-    },
-    "contact": {
-      "phone": "62954209",
-      "email": "info@abdgafoor.mosque.org.sg"
     }
   },
   {
@@ -55,10 +43,6 @@
     "coordinates": {
       "lat": 1.319608,
       "lng": 103.839305
-    },
-    "address": {
-      "street": "10 Gentle Road",
-      "postal": "309194"
     }
   },
   {
@@ -77,20 +61,16 @@
   },
   {
     "District": "North",
-    "Location Name": "Masjid Abdul Hamid Kampung Pasiran",
-    "No. of Sessions": "1 Session Only",
+    "Location Name": "Masjid Ahmad Ibrahim",
+    "No. of Sessions": "2 Sessions",
     "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
+    "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
     "Remarks": null,
     "coordinates": {
-      "lat": 1.319608,
-      "lng": 103.839305
-    },
-    "address": {
-      "street": "10 Gentle Road",
-      "postal": "309194"
+      "lat": 1.43315271543517,
+      "lng": 103.832942401086
     }
   },
   {
@@ -105,10 +85,6 @@
     "coordinates": {
       "lat": 1.32339895187489,
       "lng": 103.907302807628
-    },
-    "address": {
-      "street": "30 Jalan Ismail",
-      "postal": "419285"
     }
   },
   {
@@ -116,17 +92,13 @@
     "Location Name": "Masjid Al-Abrar",
     "No. of Sessions": "1 Session Only",
     "Session 1 Timing": "8.00am",
-    "Session 1 Khutbah Language": "Arabic",
+    "Session 1 Khutbah Language": "Arabic*",
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
     "coordinates": {
       "lat": 1.28032210562498,
       "lng": 103.847216983935
-    },
-    "address": {
-      "street": "192 Telok Ayer Street",
-      "postal": "068635"
     }
   },
   {
@@ -141,10 +113,6 @@
     "coordinates": {
       "lat": 1.27520461393923,
       "lng": 103.81927883949
-    },
-    "address": {
-      "street": "50 Telok Blangah Way",
-      "postal": "098801"
     }
   },
   {
@@ -159,10 +127,6 @@
     "coordinates": {
       "lat": 1.32697321797939,
       "lng": 103.926385559867
-    },
-    "address": {
-      "street": "155 Bedok North Avenue 1",
-      "postal": "469751"
     }
   },
   {
@@ -170,17 +134,13 @@
     "Location Name": "Masjid Al-Falah",
     "No. of Sessions": "1 Session Only",
     "Session 1 Timing": "8.00am",
-    "Session 1 Khutbah Language": "English",
+    "Session 1 Khutbah Language": "English*",
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
     "coordinates": {
       "lat": 1.3037754296615,
       "lng": 103.836653682351
-    },
-    "address": {
-      "street": "22 Bideford Road #01-01",
-      "postal": "229923"
     }
   },
   {
@@ -195,10 +155,6 @@
     "coordinates": {
       "lat": 1.37496290426076,
       "lng": 103.71645968696
-    },
-    "address": {
-      "street": "11 Jalan Ibadat",
-      "postal": "698955"
     }
   },
   {
@@ -213,10 +169,6 @@
     "coordinates": {
       "lat": 1.32318810145539,
       "lng": 103.794916529327
-    },
-    "address": {
-      "street": "34 Jalan Haji Alias",
-      "postal": "268534"
     }
   },
   {
@@ -231,10 +183,6 @@
     "coordinates": {
       "lat": 1.37813023615872,
       "lng": 103.772762574397
-    },
-    "address": {
-      "street": "10 Bukit Panjang Ring Road",
-      "postal": "679943"
     }
   },
   {
@@ -249,10 +197,6 @@
     "coordinates": {
       "lat": 1.40124380624977,
       "lng": 103.901498997391
-    },
-    "address": {
-      "street": "30 Punggol Field",
-      "postal": "828812"
     }
   },
   {
@@ -267,10 +211,6 @@
     "coordinates": {
       "lat": 1.37099780404453,
       "lng": 103.964110386822
-    },
-    "address": {
-      "street": "2 Pasir Ris Walk",
-      "postal": "518239"
     }
   },
   {
@@ -285,10 +225,6 @@
     "coordinates": {
       "lat": 1.36920170635718,
       "lng": 103.875626641606
-    },
-    "address": {
-      "street": "2 Serangoon North Avenue 2",
-      "postal": "555876"
     }
   },
   {
@@ -303,10 +239,6 @@
     "coordinates": {
       "lat": 1.33672709655552,
       "lng": 103.874461693657
-    },
-    "address": {
-      "street": "66 Pheng Geck Avenue",
-      "postal": "348261"
     }
   },
   {
@@ -321,10 +253,6 @@
     "coordinates": {
       "lat": 1.33668967461862,
       "lng": 103.913994187667
-    },
-    "address": {
-      "street": "200 Bedok Reservoir Road",
-      "postal": "479221"
     }
   },
   {
@@ -339,10 +267,6 @@
     "coordinates": {
       "lat": 1.38264503460745,
       "lng": 103.750010414584
-    },
-    "address": {
-      "street": "1 Teck Whye Crescent",
-      "postal": "688847"
     }
   },
   {
@@ -357,10 +281,6 @@
     "coordinates": {
       "lat": 1.38344130978082,
       "lng": 103.890251310012
-    },
-    "address": {
-      "street": "151 Compassvale Bow",
-      "postal": "544997"
     }
   },
   {
@@ -375,10 +295,6 @@
     "coordinates": {
       "lat": 1.33921644391402,
       "lng": 103.741421884031
-    },
-    "address": {
-      "street": "271 Jurong East Street 21",
-      "postal": "609603"
     }
   },
   {
@@ -393,10 +309,6 @@
     "coordinates": {
       "lat": 1.37052194585268,
       "lng": 103.845904787078
-    },
-    "address": {
-      "street": "5140 Ang Mo Kio Avenue 6",
-      "postal": "569844"
     }
   },
   {
@@ -411,10 +323,6 @@
     "coordinates": {
       "lat": 1.32179653416997,
       "lng": 103.953501109845
-    },
-    "address": {
-      "street": "11A Jalan Bilal",
-      "postal": "468862"
     }
   },
   {
@@ -429,10 +337,6 @@
     "coordinates": {
       "lat": 1.30361391565827,
       "lng": 103.829242156982
-    },
-    "address": {
-      "street": "265 Serangoon Road",
-      "postal": "218099"
     }
   },
   {
@@ -447,10 +351,6 @@
     "coordinates": {
       "lat": 1.35355556185729,
       "lng": 103.851131063043
-    },
-    "address": {
-      "street": "9A Bishan Street 14",
-      "postal": "579786"
     }
   },
   {
@@ -465,10 +365,6 @@
     "coordinates": {
       "lat": 1.44072763615816,
       "lng": 103.771877534569
-    },
-    "address": {
-      "street": "6 Admiralty Road",
-      "postal": "739983"
     }
   },
   {
@@ -483,10 +379,6 @@
     "coordinates": {
       "lat": 1.35165826497431,
       "lng": 103.756024260587
-    },
-    "address": {
-      "street": "30 Bukit Batok East Avenue 2",
-      "postal": "659919"
     }
   },
   {
@@ -501,10 +393,6 @@
     "coordinates": {
       "lat": 1.45577050995774,
       "lng": 103.819381371528
-    },
-    "address": {
-      "street": "1 Admiralty Lane",
-      "postal": "757620"
     }
   },
   {
@@ -519,10 +407,6 @@
     "coordinates": {
       "lat": 1.33544840128089,
       "lng": 103.719566221744
-    },
-    "address": {
-      "street": "550 Yung An Road",
-      "postal": "618617"
     }
   },
   {
@@ -537,10 +421,6 @@
     "coordinates": {
       "lat": 1.32073352232102,
       "lng": 103.822590280918
-    },
-    "address": {
-      "street": "2 Lewis Road",
-      "postal": "258590"
     }
   },
   {
@@ -555,10 +435,6 @@
     "coordinates": {
       "lat": 1.29884558580411,
       "lng": 103.849843606852
-    },
-    "address": {
-      "street": "59 Bencoolen Street, #01-01",
-      "postal": "189630"
     }
   },
   {
@@ -573,10 +449,6 @@
     "coordinates": {
       "lat": 1.31796445871933,
       "lng": 103.904561547103
-    },
-    "address": {
-      "street": "1 Jalan Eunos",
-      "postal": "419493"
     }
   },
   {
@@ -591,10 +463,6 @@
     "coordinates": {
       "lat": 1.35528065111508,
       "lng": 103.93993380532
-    },
-    "address": {
-      "street": "503 Tampines Avenue 5",
-      "postal": "529651"
     }
   },
   {
@@ -609,10 +477,6 @@
     "coordinates": {
       "lat": 1.43686614981845,
       "lng": 103.83434033765
-    },
-    "address": {
-      "street": "950 Yishun Avenue 2",
-      "postal": "769099"
     }
   },
   {
@@ -627,10 +491,6 @@
     "coordinates": {
       "lat": 1.31248504081994,
       "lng": 103.771073229152
-    },
-    "address": {
-      "street": "3002 Commonwealth Avenue West",
-      "postal": "129579"
     }
   },
   {
@@ -645,10 +505,6 @@
     "coordinates": {
       "lat": 1.36092931253044,
       "lng": 103.892551072557
-    },
-    "address": {
-      "street": "120 Tampines Road",
-      "postal": "535136"
     }
   },
   {
@@ -663,10 +519,6 @@
     "coordinates": {
       "lat": 1.31240484656975,
       "lng": 103.876888600758
-    },
-    "address": {
-      "street": "245 Geylang Road",
-      "postal": "389304"
     }
   },
   {
@@ -681,10 +533,6 @@
     "coordinates": {
       "lat": 1.27283943416264,
       "lng": 103.847411373319
-    },
-    "address": {
-      "street": "37 Palmer Road",
-      "postal": "079424"
     }
   },
   {
@@ -699,10 +547,6 @@
     "coordinates": {
       "lat": 1.35580654058068,
       "lng": 103.879714474791
-    },
-    "address": {
-      "street": "2 Hillside Drive",
-      "postal": "548920"
     }
   },
   {
@@ -717,10 +561,6 @@
     "coordinates": {
       "lat": 1.30291798131982,
       "lng": 103.862907913198
-    },
-    "address": {
-      "street": "4001 Beach Road",
-      "postal": "199584"
     }
   },
   {
@@ -735,10 +575,6 @@
     "coordinates": {
       "lat": 1.32611624278724,
       "lng": 103.854827462535
-    },
-    "address": {
-      "street": "76 Kim Keat Road",
-      "postal": "328835"
     }
   },
   {
@@ -753,10 +589,6 @@
     "coordinates": {
       "lat": 1.2903493238116,
       "lng": 103.796457036966
-    },
-    "address": {
-      "street": "100 Jalan Hang Jebat",
-      "postal": "139533"
     }
   },
   {
@@ -771,10 +603,6 @@
     "coordinates": {
       "lat": 1.32166368636589,
       "lng": 103.738170825514
-    },
-    "address": {
-      "street": "492 Teban Gardens",
-      "postal": "608878"
     }
   },
   {
@@ -789,10 +617,6 @@
     "coordinates": {
       "lat": 1.29137428067036,
       "lng": 103.771711771028
-    },
-    "address": {
-      "street": "394 Pasir Panjang Road",
-      "postal": "118730"
     }
   },
   {
@@ -807,10 +631,6 @@
     "coordinates": {
       "lat": 1.2832630967971,
       "lng": 103.844857938644
-    },
-    "address": {
-      "street": "218 South Bridge Road",
-      "postal": "058767"
     }
   },
   {
@@ -825,10 +645,6 @@
     "coordinates": {
       "lat": 1.29301137234296,
       "lng": 103.815428353466
-    },
-    "address": {
-      "street": "946 Margaret Drive",
-      "postal": "149309"
     }
   },
   {
@@ -843,10 +659,6 @@
     "coordinates": {
       "lat": 1.28832868873592,
       "lng": 103.820155323568
-    },
-    "address": {
-      "street": "601 Tiong Bahru Road",
-      "postal": "158787"
     }
   },
   {
@@ -861,10 +673,6 @@
     "coordinates": {
       "lat": 1.29164028211495,
       "lng": 103.828371406698
-    },
-    "address": {
-      "street": "10 Delta Avenue",
-      "postal": "169831"
     }
   },
   {
@@ -879,10 +687,20 @@
     "coordinates": {
       "lat": 1.30999797039772,
       "lng": 103.927800438998
-    },
-    "address": {
-      "street": "451 Marine Parade Road",
-      "postal": "449283"
+    }
+  },
+  {
+    "District": "East",
+    "Location Name": "Masjid Kassim",
+    "No. of Sessions": "2 Sessions",
+    "Session 1 Khutbah Language": "Malay",
+    "Session 2 Khutbah Language": "Malay",
+    "Session 3 Khutbah Language": null,
+    "Muslimah Prayer Space": "Available",
+    "Remarks": null,
+    "coordinates": {
+      "lat": 1.31871782896033,
+      "lng": 103.912246650011
     }
   },
   {
@@ -897,10 +715,6 @@
     "coordinates": {
       "lat": 1.31418450398371,
       "lng": 103.886098564499
-    },
-    "address": {
-      "street": "583 Geylang Road",
-      "postal": "389522"
     }
   },
   {
@@ -915,10 +729,6 @@
     "coordinates": {
       "lat": 1.31341618432483,
       "lng": 103.898941011024
-    },
-    "address": {
-      "street": "130 Joo Chiat Road",
-      "postal": "427727"
     }
   },
   {
@@ -933,10 +743,6 @@
     "coordinates": {
       "lat": 1.34851765818894,
       "lng": 103.704984361237
-    },
-    "address": {
-      "street": "20 Jurong West Street 26",
-      "postal": "648125"
     }
   },
   {
@@ -951,10 +757,6 @@
     "coordinates": {
       "lat": 1.30503916442958,
       "lng": 103.859733415078
-    },
-    "address": {
-      "street": "471 Victoria Street",
-      "postal": "198370"
     }
   },
   {
@@ -969,10 +771,6 @@
     "coordinates": {
       "lat": 1.28258418141456,
       "lng": 103.845954113164
-    },
-    "address": {
-      "street": "80 Raffles Place #B1-01, UOB Plaza",
-      "postal": "048624"
     }
   },
   {
@@ -987,10 +785,6 @@
     "coordinates": {
       "lat": 1.34298997216698,
       "lng": 103.852062475426
-    },
-    "address": {
-      "street": "275 Braddell Road",
-      "postal": "579704"
     }
   },
   {
@@ -1005,10 +799,6 @@
     "coordinates": {
       "lat": 1.29813057936034,
       "lng": 103.80095202592
-    },
-    "address": {
-      "street": "590 Stirling Road",
-      "postal": "148952"
     }
   },
   {
@@ -1023,10 +813,6 @@
     "coordinates": {
       "lat": 1.32120815100275,
       "lng": 103.911267761495
-    },
-    "address": {
-      "street": "67 Jalan Lapang",
-      "postal": "419007"
     }
   },
   {
@@ -1041,10 +827,6 @@
     "coordinates": {
       "lat": 1.28781684606584,
       "lng": 103.844266388888
-    },
-    "address": {
-      "street": "10 Keng Cheow Street",
-      "postal": "059607"
     }
   },
   {
@@ -1059,10 +841,6 @@
     "coordinates": {
       "lat": 1.33468787442313,
       "lng": 103.831955902164
-    },
-    "address": {
-      "street": "441-B Jalan Mashor",
-      "postal": "299173"
     }
   },
   {
@@ -1077,10 +855,6 @@
     "coordinates": {
       "lat": 1.45909512625858,
       "lng": 103.841747361438
-    },
-    "address": {
-      "street": "27-B Jalan Mempurong",
-      "postal": "759055"
     }
   },
   {
@@ -1095,10 +869,6 @@
     "coordinates": {
       "lat": 1.37322663565561,
       "lng": 103.694349458982
-    },
-    "address": {
-      "street": "11 Lim Chu Kang Road",
-      "postal": "719452"
     }
   },
   {
@@ -1113,10 +883,6 @@
     "coordinates": {
       "lat": 1.32574679283198,
       "lng": 103.881230367298
-    },
-    "address": {
-      "street": "1 Mattar Road",
-      "postal": "387725"
     }
   },
   {
@@ -1132,10 +898,6 @@
     "coordinates": {
       "lat": 1.30114162138115,
       "lng": 103.860771460808
-    },
-    "address": {
-      "street": "3 Muscat Street",
-      "postal": "198833"
     }
   },
   {
@@ -1150,10 +912,20 @@
     "coordinates": {
       "lat": 1.31300789080779,
       "lng": 103.849141018794
-    },
-    "address": {
-      "street": "46 Bristol Road",
-      "postal": "219852"
+    }
+  },
+  {
+    "District": "South",
+    "Location Name": "Masjid Temenggong Daeng Ibrahim",
+    "No. of Sessions": "1 Session Only",
+    "Session 1 Timing": "8.30am",
+    "Session 1 Khutbah Language": "Malay*",
+    "Session 2 Khutbah Language": null,
+    "Session 3 Khutbah Language": null,
+    "Muslimah Prayer Space": "Available",
+    "coordinates": {
+      "lat": 1.26631495497006,
+      "lng": 103.824254422419
     }
   },
   {
@@ -1168,10 +940,6 @@
     "coordinates": {
       "lat": 1.29878403196681,
       "lng": 103.769167164764
-    },
-    "address": {
-      "street": "81 Clementi Road",
-      "postal": "129797"
     }
   },
   {
@@ -1186,10 +954,6 @@
     "coordinates": {
       "lat": 1.31713992999416,
       "lng": 103.891260934228
-    },
-    "address": {
-      "street": "25 Paya Lebar Road",
-      "postal": "409004"
     }
   },
   {
@@ -1204,10 +968,6 @@
     "coordinates": {
       "lat": 1.29097188679383,
       "lng": 103.776951057803
-    },
-    "address": {
-      "street": "10 Woodlands Drive 17",
-      "postal": "737740"
     }
   },
   {
