@@ -1,13 +1,14 @@
 "use client"
 
 import { FilterPanel } from "@/components/filter-panel"
+import { InfoDialog } from "@/components/info-dialog"
 import { PrayerSessionList } from "@/components/prayer-session-list"
 import { SortPanel } from "@/components/sort-panel"
 import prayerSessionsData from "@/data/prayer-sessions.json"
 import { calculateDistance } from "@/lib/utils"
 import type { PrayerSession } from "@/types/prayer-session"
-import Link from "next/link"
-import { useEffect, useState, useRef } from "react"
+import { Info } from "lucide-react"
+import { useEffect, useRef, useState } from "react"
 
 export default function Home() {
   const [filteredSessions, setFilteredSessions] = useState<PrayerSession[]>([])
@@ -24,6 +25,7 @@ export default function Home() {
   const [userCoords, setUserCoords] = useState<{lat: number, lng: number} | null>(null)
   const [isSortedByDistance, setIsSortedByDistance] = useState(false)
   const [sortedPostalCode, setSortedPostalCode] = useState("")
+  const [infoOpen, setInfoOpen] = useState(false)
 
   // Get unique districts for filter dropdown
   const districts = ["all", ...new Set(prayerSessionsData.map((session) => session.District))]
@@ -150,27 +152,51 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-white hari-raya-pattern">
-          
       {/* Hero section with purple gradient */}
-      <div className="bg-gradient-to-b from-primary-dark to-primary py-8">
-        
-        <div className="container mx-auto px-4">
-          <header className="text-center mb-8">
-            <div className="flex items-center justify-center mb-3">
-              🕌 🌙 🇸🇬
+      <div className="bg-gradient-to-b from-primary-dark to-primary">
+        {/* Masthead with darker background */}
+        <div className="bg-black/30 border-b border-white/10">
+          <div className="container mx-auto px-4">
+            <div className="flex items-center h-[30px]">
+              <div className="flex items-center gap-2 text-[13px] text-white/60">
+                <img 
+                  src="/meem-logo.webp" 
+                  alt="Meem" 
+                  className="h-[16px] w-auto brightness-0 invert opacity-60"
+                />
+              </div>
+              
+              <button 
+                onClick={() => setInfoOpen(true)}
+                className="text-[13px] text-white/60 hover:text-white/80 flex items-center gap-1 ml-auto"
+              >
+                More info
+                <Info className="w-3 h-3" />
+              </button>
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Solat Raya 2025</h1>
-            <p className="text-white/80 max-w-md mx-auto">Find prayer sessions across various locations in Singapore</p>
-          </header>
-          <div className="mt-8">
-            <SortPanel
-              postalCode={postalCode}
-              setPostalCode={setPostalCode}
-              onSortByDistance={handleSortByDistance}
-              isLoading={isGeocoding}
-              isSorted={isSortedByDistance}
-              sortedPostalCode={sortedPostalCode}
-            />
+          </div>
+        </div>
+
+        {/* Hero content */}
+        <div className="py-8">
+          <div className="container mx-auto px-4">
+            <header className="text-center mb-8">
+              <div className="flex items-center justify-center mb-3">
+                🕌 🌙 🇸🇬
+              </div>
+              <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Solat Raya 2025</h1>
+              <p className="text-white/80 max-w-md mx-auto">Find prayer sessions across various locations</p>
+            </header>
+            <div className="mt-8">
+              <SortPanel
+                postalCode={postalCode}
+                setPostalCode={setPostalCode}
+                onSortByDistance={handleSortByDistance}
+                isLoading={isGeocoding}
+                isSorted={isSortedByDistance}
+                sortedPostalCode={sortedPostalCode}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -231,16 +257,18 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-primary hover:text-primary-light transition-colors underline underline-offset-2"
             >
-          <img 
-            src="/meem-logo.webp" 
-            alt="Meem Logo" 
-            width={32}
-            height={32}
-            className="mx-auto mt-4" 
-          />
+            <img 
+              src="/meem-logo.webp" 
+              alt="Meem Logo" 
+              width={32}
+              height={32}
+              className="mx-auto mt-4" 
+            />
           </a>
         </div>
       </div>
+
+      <InfoDialog open={infoOpen} onOpenChange={setInfoOpen} />
     </main>
   )
 }
