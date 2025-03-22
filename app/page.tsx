@@ -159,11 +159,13 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="flex items-center h-[30px]">
               <div className="flex items-center gap-2 text-[13px] text-white/60">
-                <img 
-                  src="/meem-logo.webp" 
-                  alt="Meem" 
-                  className="h-[16px] w-auto brightness-0 invert opacity-60"
-                />
+                <a href="https://meem.to/from-solat-raya" target="_blank" rel="noopener noreferrer">
+                  <img 
+                    src="/meem-logo.webp" 
+                    alt="Meem" 
+                    className="h-[16px] w-auto brightness-0 invert opacity-60"
+                  />
+                </a>
               </div>
               
               <button 
@@ -242,7 +244,7 @@ export default function Home() {
           <p>
             Built with 💜 by the team at{" "}
             <a 
-              href="https://usemeem.com" 
+              href="https://meem.to/from-solat-raya" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:text-primary-light transition-colors underline underline-offset-2"
@@ -252,7 +254,7 @@ export default function Home() {
             {" "}· Singapore's trusted platform to find ARS-certified asatizah
           </p>
           <a 
-              href="https://usemeem.com" 
+              href="https://meem.to/from-solat-raya" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:text-primary-light transition-colors underline underline-offset-2"

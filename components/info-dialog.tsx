@@ -36,7 +36,7 @@ export function InfoDialog({ open, onOpenChange }: InfoDialogProps) {
             </p>
             <div className="mt-2">
               <a 
-                href="https://usemeem.com" 
+                href="https://meem.to/from-solat-raya" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-primary hover:text-primary-dark"
