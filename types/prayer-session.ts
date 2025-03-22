@@ -5,14 +5,18 @@ export interface PrayerSession {
   "Session 1 Timing"?: string
   "Session 2 Timing"?: string
   "Session 3 Timing"?: string
-  "Session 1 Khutbah Language": string | null
-  "Session 2 Khutbah Language": string | null
-  "Session 3 Khutbah Language": string | null
+  "Session 1 Khutbah Language"?: string | null
+  "Session 2 Khutbah Language"?: string | null
+  "Session 3 Khutbah Language"?: string | null
   "Muslimah Prayer Space": string
   Remarks: string | null
   coordinates?: {
     lat: number
     lng: number
+  }
+  address?: {
+    street: string
+    postal?: string
   }
 }
 
