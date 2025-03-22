@@ -5,13 +5,15 @@ import { PrayerSessionCard } from "@/components/prayer-session-card"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState, useRef, RefObject, useEffect } from "react"
+import { calculateDistance } from "@/lib/utils"
 
 interface PrayerSessionListProps {
   sessions: PrayerSession[]
   scrollRef: RefObject<HTMLDivElement>
+  userCoords?: { lat: number; lng: number } | null
 }
 
-export function PrayerSessionList({ sessions, scrollRef }: PrayerSessionListProps) {
+export function PrayerSessionList({ sessions, scrollRef, userCoords }: PrayerSessionListProps) {
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 6 // Show 6 cards per page
 
@@ -44,7 +46,18 @@ export function PrayerSessionList({ sessions, scrollRef }: PrayerSessionListProp
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {currentSessions.map((session) => (
-          <PrayerSessionCard key={session["Location Name"]} session={session} />
+          <PrayerSessionCard 
+            key={session["Location Name"]} 
+            session={session} 
+            distance={userCoords && session.coordinates ? 
+              calculateDistance(
+                userCoords.lat,
+                userCoords.lng,
+                session.coordinates.lat,
+                session.coordinates.lng
+              ) : undefined
+            }
+          />
         ))}
       </div>
 

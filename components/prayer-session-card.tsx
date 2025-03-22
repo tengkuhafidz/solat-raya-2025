@@ -1,13 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import type { PrayerSession } from "@/types/prayer-session"
-import { MapPin, Clock, Users, MessageSquare, Info } from "lucide-react"
+import { Map, Clock, Users, MessageSquare, Info, Navigation, Globe, ExternalLink, MapPin } from "lucide-react"
+import { Button } from "./ui/button"
 
 interface PrayerSessionCardProps {
   session: PrayerSession
+  distance?: number
 }
 
-export function PrayerSessionCard({ session }: PrayerSessionCardProps) {
+export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps) {
   // Helper function to get default timing for a session number
   const getDefaultTiming = (sessionNumber: number) => {
     switch (sessionNumber) {
@@ -71,24 +73,53 @@ export function PrayerSessionCard({ session }: PrayerSessionCardProps) {
     }
   }
 
+  // Function to create Google Maps URL
+  const getGoogleMapsUrl = (locationName: string) => {
+    // Append "Singapore" to ensure accurate results
+    const searchQuery = encodeURIComponent(`${locationName} Singapore`)
+    return `https://www.google.com/maps/search/?api=1&query=${searchQuery}`
+  }
+
   return (
     <Card className="overflow-hidden transition-all duration-200 hover:shadow-lg border-0 card-accent bg-white/80 backdrop-blur-sm shadow-md hover:bg-white hover:scale-[1.02]">
       <CardHeader className="pb-2 bg-white/95 border-b">
-        <div className="flex justify-between items-start">
-          <div className="space-y-2">
-            <Badge 
-              variant="secondary" 
-              className={`font-medium ${getDistrictColor(session.District)}`}
+        <div className="space-y-2">
+          <div className="flex justify-between items-start">
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <Badge 
+                  variant="secondary" 
+                  className={`font-medium ${getDistrictColor(session.District)}`}
+                >
+                  {session.District} District
+                </Badge>
+                {distance !== undefined && (
+                  <Badge 
+                    variant="outline" 
+                    className="bg-white text-gray-500 border-gray-200 hover:bg-white gap-1 font-normal"
+                  >
+                    <MapPin className="h-3 w-3" />
+                    {distance.toFixed(1)}km away
+                  </Badge>
+                )}
+              </div>
+              <CardTitle className="text-gray-800 text-lg">{session["Location Name"]}</CardTitle>
+            </div>
+            <Button
+              variant="link"
+              size="sm"
+              onClick={() => window.open(getGoogleMapsUrl(session["Location Name"]), '_blank')}
+              title="View on Google Maps"
+              className="text-gray-500 hover:text-gray-700 px-0 h-auto font-normal text-xs decoration-gray-300 hover:decoration-gray-500 inline-flex items-center gap-1"
             >
-              {session.District} District
-            </Badge>
-            <CardTitle className="text-gray-800 text-lg">{session["Location Name"]}</CardTitle>
+              <Map className="h-4 w-4" />
+              Directions
+            </Button>
           </div>
         </div>
       </CardHeader>
       <CardContent className="pt-4 bg-white/95">
         <div className="border-b border-gray-100 pb-4">{renderKhutbahSessions()}</div>
-
         <div className="flex items-center mt-4">
           <Users className="h-4 w-4 mr-2 text-primary" />
           <span className="text-sm">Muslimah Space:</span>
