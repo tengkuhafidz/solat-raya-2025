@@ -91,7 +91,7 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
                   variant="secondary" 
                   className={`font-medium ${getDistrictColor(session.District)}`}
                 >
-                  {session.District} District
+                  {session.District}
                 </Badge>
                 {distance !== undefined && (
                   <Badge 
