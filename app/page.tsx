@@ -6,10 +6,12 @@ import { SortPanel } from "@/components/sort-panel"
 import prayerSessionsData from "@/data/prayer-sessions.json"
 import { calculateDistance } from "@/lib/utils"
 import type { PrayerSession } from "@/types/prayer-session"
-import { useEffect, useState } from "react"
+import Link from "next/link"
+import { useEffect, useState, useRef } from "react"
 
 export default function Home() {
   const [filteredSessions, setFilteredSessions] = useState<PrayerSession[]>([])
+  const listContainerRef = useRef<HTMLDivElement>(null)
 
   // Filter states
   const [selectedDistrict, setSelectedDistrict] = useState<string>("all")
@@ -21,6 +23,7 @@ export default function Home() {
   const [isGeocoding, setIsGeocoding] = useState(false)
   const [userCoords, setUserCoords] = useState<{lat: number, lng: number} | null>(null)
   const [isSortedByDistance, setIsSortedByDistance] = useState(false)
+  const [sortedPostalCode, setSortedPostalCode] = useState("")
 
   // Get unique districts for filter dropdown
   const districts = ["all", ...new Set(prayerSessionsData.map((session) => session.District))]
@@ -142,12 +145,15 @@ export default function Home() {
     if (!success) return
     
     setIsSortedByDistance(true)
+    setSortedPostalCode(postalCode)
   }
 
   return (
     <main className="min-h-screen bg-white hari-raya-pattern">
+          
       {/* Hero section with purple gradient */}
       <div className="bg-gradient-to-b from-primary-dark to-primary py-8">
+        
         <div className="container mx-auto px-4">
           <header className="text-center mb-8">
             <div className="flex items-center justify-center mb-3">
@@ -162,6 +168,8 @@ export default function Home() {
               setPostalCode={setPostalCode}
               onSortByDistance={handleSortByDistance}
               isLoading={isGeocoding}
+              isSorted={isSortedByDistance}
+              sortedPostalCode={sortedPostalCode}
             />
           </div>
         </div>
@@ -182,21 +190,26 @@ export default function Home() {
           setSearchTerm={setSearchTerm}
         />
 
-        <div className="mt-8 mb-4 text-sm text-gray-500 flex items-center justify-between">
-          <div className="flex items-center">
-            <span className="inline-block w-2 h-2 rounded-full bg-primary mr-2"></span>
-            {filteredSessions.length} locations
+        <div ref={listContainerRef}>
+          <div className="mt-8 mb-4 text-sm text-gray-500 flex items-center justify-between">
+            <div className="flex items-center">
+              <span className="inline-block w-2 h-2 rounded-full bg-primary mr-2"></span>
+              {filteredSessions.length} locations
+            </div>
+            <div className="text-xs text-gray-400">
+              Source: <a href="https://ramadan.ourmasjid.sg/hari-raya-puasa-prayer-arrangements/" 
+                className="underline hover:text-primary transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >SalaamSG</a> · Updated: 22/3/25
+            </div>
           </div>
-          <div className="text-xs text-gray-400">
-            Source: <a href="https://ramadan.ourmasjid.sg/hari-raya-puasa-prayer-arrangements/" 
-              className="underline hover:text-primary transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >SalaamSG</a> · Updated: 22/3/25
-          </div>
-        </div>
 
-        <PrayerSessionList sessions={filteredSessions} />
+          <PrayerSessionList 
+            sessions={filteredSessions} 
+            scrollRef={listContainerRef}
+          />
+        </div>
 
         {/* Add subtle Meem plug */}
         <div className="text-center mt-12 pt-8 border-t text-sm text-gray-400">
@@ -210,8 +223,15 @@ export default function Home() {
             >
               Meem
             </a>
-            {" "}· Singapore's trusted platform for ARS-certified Islamic teachers
+            {" "}· Singapore's trusted platform to find ARS-certified asatizah
           </p>
+          <img 
+            src="/meem-logo.webp" 
+            alt="Meem Logo" 
+            width={32}
+            height={32}
+            className="mx-auto mt-4" 
+          />
         </div>
       </div>
     </main>
