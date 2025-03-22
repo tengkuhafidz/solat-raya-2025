@@ -17,7 +17,10 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
+# Start of Selection
 .env*
+!.env.sample
+# End of Selection
 
 # vercel
 .vercel
