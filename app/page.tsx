@@ -225,6 +225,12 @@ export default function Home() {
             </a>
             {" "}· Singapore's trusted platform to find ARS-certified asatizah
           </p>
+          <a 
+              href="https://usemeem.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary-light transition-colors underline underline-offset-2"
+            >
           <img 
             src="/meem-logo.webp" 
             alt="Meem Logo" 
@@ -232,6 +238,7 @@ export default function Home() {
             height={32}
             className="mx-auto mt-4" 
           />
+          </a>
         </div>
       </div>
     </main>
