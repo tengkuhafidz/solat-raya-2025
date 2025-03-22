@@ -23,17 +23,17 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
   // Helper function to render khutbah sessions
   const renderKhutbahSessions = () => {
     const sessions = [
-      { 
+      {
         number: 1,
         timing: session["Session 1 Timing"] || getDefaultTiming(1),
         language: session["Session 1 Khutbah Language"]
       },
-      { 
+      {
         number: 2,
         timing: session["Session 2 Timing"] || getDefaultTiming(2),
         language: session["Session 2 Khutbah Language"]
       },
-      { 
+      {
         number: 3,
         timing: session["Session 3 Timing"] || getDefaultTiming(3),
         language: session["Session 3 Khutbah Language"]
@@ -85,25 +85,22 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
       <CardHeader className="pb-2 bg-white/95 border-b">
         <div className="space-y-2">
           <div className="flex justify-between items-start">
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <Badge 
-                  variant="secondary" 
-                  className={`font-medium ${getDistrictColor(session.District)}`}
+            <div className="flex items-center gap-2">
+              <Badge
+                variant="secondary"
+                className={`font-medium ${getDistrictColor(session.District)}`}
+              >
+                {session.District}
+              </Badge>
+              {distance !== undefined && (
+                <Badge
+                  variant="outline"
+                  className="bg-white text-gray-500 border-gray-200 hover:bg-white gap-1 font-normal"
                 >
-                  {session.District}
+                  <MapPin className="h-3 w-3" />
+                  {distance.toFixed(1)}km away
                 </Badge>
-                {distance !== undefined && (
-                  <Badge 
-                    variant="outline" 
-                    className="bg-white text-gray-500 border-gray-200 hover:bg-white gap-1 font-normal"
-                  >
-                    <MapPin className="h-3 w-3" />
-                    {distance.toFixed(1)}km away
-                  </Badge>
-                )}
-              </div>
-              <CardTitle className="text-gray-800 text-lg">{session["Location Name"]}</CardTitle>
+              )}
             </div>
             <Button
               variant="link"
@@ -116,6 +113,7 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
               Directions
             </Button>
           </div>
+          <CardTitle className="text-gray-800 text-lg w-full">{session["Location Name"]}</CardTitle>
         </div>
       </CardHeader>
       <CardContent className="pt-4 bg-white/95">
