@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://solat-raya.usemeem.com/sitemap.xml 
