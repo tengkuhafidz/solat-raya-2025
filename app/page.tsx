@@ -26,6 +26,7 @@ export default function Home() {
   const [isSortedByDistance, setIsSortedByDistance] = useState(false)
   const [sortedPostalCode, setSortedPostalCode] = useState("")
   const [infoOpen, setInfoOpen] = useState(false)
+  const [showLessCrowded, setShowLessCrowded] = useState(false)
 
   // Get unique districts for filter dropdown
   const districts = ["all", ...new Set(prayerSessionsData.map((session) => session.District))]
@@ -105,8 +106,13 @@ export default function Home() {
       result.sort((a, b) => b["Location Name"].localeCompare(a["Location Name"]))
     }
 
+    // Add Less Crowded filter
+    if (showLessCrowded) {
+      result = result.filter((session) => session["Less Crowded"])
+    }
+
     setFilteredSessions(result as PrayerSession[])
-  }, [selectedDistrict, selectedSession, selectedLanguage, locationType, searchTerm, userCoords, isSortedByDistance])
+  }, [selectedDistrict, selectedSession, selectedLanguage, locationType, searchTerm, userCoords, isSortedByDistance, showLessCrowded])
 
   const geocodePostalCode = async (postalCode: string) => {
     setIsGeocoding(true)
@@ -216,6 +222,8 @@ export default function Home() {
           setLocationType={setLocationType}
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
+          showLessCrowded={showLessCrowded}
+          setShowLessCrowded={setShowLessCrowded}
         />
 
         <div ref={listContainerRef}>
@@ -229,7 +237,7 @@ export default function Home() {
                 className="underline hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
-              >SalaamSG</a> · Updated: 22/3/25
+              >SalaamSG</a> · 22/3/2025
             </div>
           </div>
 

@@ -109,6 +109,7 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.27520461393923,
@@ -347,6 +348,7 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.35355556185729,
@@ -571,6 +573,7 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.32611624278724,
@@ -585,6 +588,7 @@
     "Session 2 Khutbah Language": "English",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.2903493238116,
@@ -613,6 +617,7 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.29137428067036,
@@ -655,6 +660,7 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.28832868873592,
@@ -781,6 +787,7 @@
     "Session 2 Khutbah Language": "Malay",
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.34298997216698,
@@ -795,6 +802,7 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.29813057936034,
@@ -837,6 +845,7 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.33468787442313,
@@ -936,6 +945,7 @@
     "Session 2 Khutbah Language": null,
     "Session 3 Khutbah Language": null,
     "Muslimah Prayer Space": "Available",
+    "Less Crowded": true,
     "Remarks": null,
     "coordinates": {
       "lat": 1.29878403196681,

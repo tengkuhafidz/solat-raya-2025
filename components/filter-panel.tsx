@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/collapsible"
 import { Button } from "@/components/ui/button"
 import { useEffect, useState } from "react"
+import { Switch } from "@/components/ui/switch"
 
 interface FilterPanelProps {
   districts: string[]
@@ -25,6 +26,8 @@ interface FilterPanelProps {
   setLocationType: (type: string) => void
   searchTerm: string
   setSearchTerm: (term: string) => void
+  showLessCrowded: boolean
+  setShowLessCrowded: (value: boolean) => void
 }
 
 export function FilterPanel({
@@ -39,6 +42,8 @@ export function FilterPanel({
   setLocationType,
   searchTerm,
   setSearchTerm,
+  showLessCrowded,
+  setShowLessCrowded,
 }: FilterPanelProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
@@ -202,6 +207,21 @@ export function FilterPanel({
                 </Select>
               </div>
             </div>
+
+            <div className="mt-4 flex items-center space-x-2">
+              <Switch
+                id="less-crowded"
+                checked={showLessCrowded}
+                onCheckedChange={setShowLessCrowded}
+              />
+              <Label 
+                htmlFor="less-crowded" 
+                className="text-gray-700 cursor-pointer"
+              >
+                Less crowded locations
+              </Label>
+            </div>
+
           </CardContent>
         </CollapsibleContent>
       </Collapsible>

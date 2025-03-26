@@ -9,6 +9,7 @@ export interface PrayerSession {
   "Session 2 Khutbah Language": string | null
   "Session 3 Khutbah Language": string | null
   "Muslimah Prayer Space": string
+  "Less Crowded"?: string
   Remarks: string | null
   coordinates?: {
     lat: number

@@ -85,7 +85,7 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
       <CardHeader className="pb-2 bg-white/95 border-b">
         <div className="space-y-2">
           <div className="flex justify-between items-start">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
               <Badge
                 variant="secondary"
                 className={`font-medium ${getDistrictColor(session.District)}`}
@@ -101,6 +101,15 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
                   {distance.toFixed(1)}km away
                 </Badge>
               )}
+              {session["Less Crowded"] && (
+                <Badge 
+                  variant="outline" 
+                  className="bg-green-50 text-green-700 border-green-200 hover:bg-green-50 gap-1"
+                >
+                  <Users className="h-3 w-3" />
+                  Less Crowded
+                </Badge>
+              )}
             </div>
             <Button
               variant="link"
@@ -110,7 +119,7 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
               className="text-gray-500 hover:text-gray-700 px-0 h-auto font-normal text-xs decoration-gray-300 hover:decoration-gray-500 inline-flex items-center gap-1"
             >
               <Map className="h-4 w-4" />
-              Directions
+              Mapview
             </Button>
           </div>
           <CardTitle className="text-gray-800 text-lg w-full">{session["Location Name"]}</CardTitle>
