@@ -9,6 +9,8 @@ import { calculateDistance } from "@/lib/utils"
 import type { PrayerSession } from "@/types/prayer-session"
 import { Info } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
+import { ImageBanner } from "@/components/image-banner"
+import { TextBanner } from "@/components/text-banner"
 
 export default function Home() {
   const [filteredSessions, setFilteredSessions] = useState<PrayerSession[]>([])
@@ -185,26 +187,38 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Text Banner - New addition */}
+        <TextBanner />
+
         {/* Hero content */}
-        <div className="py-8">
+              {/* <div className="mt-2 mx-2">
+              <ImageBanner />
+              </div> */}
+        <div className="pb-8">
           <div className="container mx-auto px-4">
-            <header className="text-center mb-8">
-              <div className="flex items-center justify-center mb-3">
+              
+            <header className="text-center">
+              <div className="flex items-center justify-center mb-3 mt-8">
                 🕌 🌙 🇸🇬
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Solat Raya 2025</h1>
-              <p className="text-white/80 max-w-md mx-auto">Find prayer sessions across various locations</p>
+              <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+                Solat Raya 2025
+              </h1>
+              <p className="text-white/80 max-w-md mx-auto mb-6">
+                Find prayer sessions across various locations
+              </p>
+              
+              <div className="mt-8">
+                <SortPanel
+                  postalCode={postalCode}
+                  setPostalCode={setPostalCode}
+                  onSortByDistance={handleSortByDistance}
+                  isLoading={isGeocoding}
+                  isSorted={isSortedByDistance}
+                  sortedPostalCode={sortedPostalCode}
+                />
+              </div>
             </header>
-            <div className="mt-8">
-              <SortPanel
-                postalCode={postalCode}
-                setPostalCode={setPostalCode}
-                onSortByDistance={handleSortByDistance}
-                isLoading={isGeocoding}
-                isSorted={isSortedByDistance}
-                sortedPostalCode={sortedPostalCode}
-              />
-            </div>
           </div>
         </div>
       </div>
