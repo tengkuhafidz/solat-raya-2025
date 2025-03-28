@@ -24,7 +24,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("")
   const [postalCode, setPostalCode] = useState("")
   const [isGeocoding, setIsGeocoding] = useState(false)
-  const [userCoords, setUserCoords] = useState<{lat: number, lng: number} | null>(null)
+  const [userCoords, setUserCoords] = useState<{ lat: number, lng: number } | null>(null)
   const [isSortedByDistance, setIsSortedByDistance] = useState(false)
   const [sortedPostalCode, setSortedPostalCode] = useState("")
   const [infoOpen, setInfoOpen] = useState(false)
@@ -38,7 +38,7 @@ export default function Home() {
 
     // Apply all filters first
     if (searchTerm) {
-      result = result.filter((session) => 
+      result = result.filter((session) =>
         session["Location Name"].toLowerCase().includes(searchTerm.toLowerCase())
       )
     }
@@ -76,7 +76,7 @@ export default function Home() {
 
     // Apply language filter
     if (selectedLanguage !== "all") {
-      result = result.filter((session) => 
+      result = result.filter((session) =>
         session["Session 1 Khutbah Language"]?.includes(selectedLanguage) ||
         session["Session 2 Khutbah Language"]?.includes(selectedLanguage) ||
         session["Session 3 Khutbah Language"]?.includes(selectedLanguage)
@@ -87,7 +87,7 @@ export default function Home() {
     if (isSortedByDistance && userCoords) {
       result.sort((a, b) => {
         if (!a.coordinates || !b.coordinates) return 0
-        
+
         const distanceA = calculateDistance(
           userCoords.lat,
           userCoords.lng,
@@ -100,7 +100,7 @@ export default function Home() {
           b.coordinates.lat,
           b.coordinates.lng
         )
-        
+
         return distanceA - distanceB
       })
     } else {
@@ -128,9 +128,9 @@ export default function Home() {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
-      
+
       const data = await response.json()
-      
+
       if (data.results && data.results.length > 0) {
         const { LATITUDE, LONGITUDE } = data.results[0]
         setUserCoords({
@@ -150,10 +150,10 @@ export default function Home() {
 
   const handleSortByDistance = async () => {
     if (!postalCode) return
-    
+
     const success = await geocodePostalCode(postalCode)
     if (!success) return
-    
+
     setIsSortedByDistance(true)
     setSortedPostalCode(postalCode)
   }
@@ -168,15 +168,15 @@ export default function Home() {
             <div className="flex items-center h-[30px]">
               <div className="flex items-center gap-2 text-[13px] text-white/60">
                 <a href="https://meem.to/from-solat-raya" target="_blank" rel="noopener noreferrer">
-                  <img 
-                    src="/meem-logo.webp" 
-                    alt="Meem" 
+                  <img
+                    src="/meem-logo.webp"
+                    alt="Meem"
                     className="h-[16px] w-auto brightness-0 invert opacity-60"
                   />
                 </a>
               </div>
-              
-              <button 
+
+              <button
                 onClick={() => setInfoOpen(true)}
                 className="text-[13px] text-white/60 hover:text-white/80 flex items-center gap-1 ml-auto"
               >
@@ -188,26 +188,26 @@ export default function Home() {
         </div>
 
         {/* Text Banner - New addition */}
-        <TextBanner />
+        <ImageBanner />
 
         {/* Hero content */}
-              {/* <div className="mt-2 mx-2">
+        {/* <div className="mt-2 mx-2">
               <ImageBanner />
               </div> */}
         <div className="pb-8">
           <div className="container mx-auto px-4">
-              
+
             <header className="text-center">
               <div className="flex items-center justify-center mb-3 mt-8">
                 🕌 🌙 🇸🇬
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+              <h1 className="text-4xl md:text-4xl font-bold text-white mb-2">
                 Solat Raya 2025
               </h1>
               <p className="text-white/80 max-w-md mx-auto mb-6">
                 Find prayer sessions across various locations
               </p>
-              
+
               <div className="mt-8">
                 <SortPanel
                   postalCode={postalCode}
@@ -247,7 +247,7 @@ export default function Home() {
               {filteredSessions.length} locations
             </div>
             <div className="text-xs text-gray-400">
-              Source: <a href="https://ramadan.ourmasjid.sg/hari-raya-puasa-prayer-arrangements/" 
+              Source: <a href="https://ramadan.ourmasjid.sg/hari-raya-puasa-prayer-arrangements/"
                 className="underline hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -255,8 +255,8 @@ export default function Home() {
             </div>
           </div>
 
-          <PrayerSessionList 
-            sessions={filteredSessions} 
+          <PrayerSessionList
+            sessions={filteredSessions}
             scrollRef={listContainerRef}
             userCoords={userCoords}
           />
@@ -266,9 +266,9 @@ export default function Home() {
         <div className="text-center mt-12 pt-8 border-t text-sm text-gray-400">
           <p>
             Built with 💜 by the team at{" "}
-            <a 
-              href="https://meem.to/from-solat-raya" 
-              target="_blank" 
+            <a
+              href="https://meem.to/from-solat-raya"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary-light transition-colors underline underline-offset-2"
             >
@@ -276,18 +276,18 @@ export default function Home() {
             </a>
             {" "}· Singapore's trusted platform to find ARS-certified asatizah
           </p>
-          <a 
-              href="https://meem.to/from-solat-raya" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-primary hover:text-primary-light transition-colors underline underline-offset-2"
-            >
-            <img 
-              src="/meem-logo.webp" 
-              alt="Meem Logo" 
+          <a
+            href="https://meem.to/from-solat-raya"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:text-primary-light transition-colors underline underline-offset-2"
+          >
+            <img
+              src="/meem-logo.webp"
+              alt="Meem Logo"
               width={32}
               height={32}
-              className="mx-auto mt-4" 
+              className="mx-auto mt-4"
             />
           </a>
         </div>
