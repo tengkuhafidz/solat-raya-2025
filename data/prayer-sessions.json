@@ -1,1580 +1,1965 @@
 [
   {
-    "District": "East",
-    "Location Name": "Masjid Abdul Aleem Siddique",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Timing": "7:20 AM",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Abdul Aleem Siddique",
+    "sessions": [
+      {
+        "time": "7:20 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31310423505768,
       "lng": 103.912705910938
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Abdul Gafoor",
-    "No. of Sessions": "3 Sessions",
-    "Session 1 Timing": "7:20 AM",
-    "Session 2 Timing": "8:45 AM",
-    "Session 3 Timing": "9:45 AM",
-    "Session 1 Khutbah Language": "Arabic",
-    "Session 2 Khutbah Language": "Arabic",
-    "Session 3 Khutbah Language": "Arabic",
-    "Muslimah Prayer Space": "Session 2 & 3 only",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Abdul Gafoor",
+    "sessions": [
+      {
+        "time": "7:20 AM",
+        "language": "Arabic"
+      },
+      {
+        "time": "8:45 AM",
+        "language": "Arabic"
+      },
+      {
+        "time": "9:45 AM",
+        "language": "Arabic"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30448398785878,
       "lng": 103.85368950305
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Abdul Hamid Kampung Pasiran",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Abdul Hamid Kampung Pasiran",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.319608,
       "lng": 103.839305
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Ahmad",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "English",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Ahmad",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "English"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.2810909741079544,
       "lng": 103.78725576772771
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Ahmad Ibrahim",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Ahmad Ibrahim",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.43315271543517,
       "lng": 103.832942401086
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Al Abdul Razak",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Session 2 only",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Al Abdul Razak",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32339895187489,
       "lng": 103.907302807628
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Al-Abrar",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Timing": "8.00am",
-    "Session 1 Khutbah Language": "Arabic*",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
+    "district": "South",
+    "locationName": "Masjid Al-Abrar",
+    "sessions": [
+      {
+        "time": "8:00 AM",
+        "language": "Arabic"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.28032210562498,
       "lng": 103.847216983935
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Al-Amin",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Al-Amin",
+    "isLessCrowded": true,
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.27520461393923,
       "lng": 103.81927883949
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Al-Ansar",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Al-Ansar",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32697321797939,
       "lng": 103.926385559867
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Al-Falah",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Timing": "8.00am",
-    "Session 1 Khutbah Language": "English*",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
+    "district": "South",
+    "locationName": "Masjid Al-Falah",
+    "sessions": [
+      {
+        "time": "8:00 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.3037754296615,
       "lng": 103.836653682351
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Al-Firdaus",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Session 1 only",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Al-Firdaus",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.37496290426076,
       "lng": 103.71645968696
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Al-Huda",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": null,
-    "Session 2 Khutbah Language": "English & Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Al-Huda",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "English"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32318810145539,
       "lng": 103.794916529327
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Al-Iman",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Session 1 only",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Al-Iman",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.37813023615872,
       "lng": 103.772762574397
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Al-Islah",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Al-Islah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.40124380624977,
       "lng": 103.901498997391
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Al-Istighfar",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Al-Istighfar",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.37099780404453,
       "lng": 103.964110386822
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Al-Istiqamah",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Al-Istiqamah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.36920170635718,
       "lng": 103.875626641606
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Alkaff (Upper Serangoon)",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Alkaff (Upper Serangoon)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.33672709655552,
       "lng": 103.874461693657
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Alkaff Kampung Melayu",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Not Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Alkaff Kampung Melayu",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": false,
+    "remarks": null,
     "coordinates": {
       "lat": 1.33668967461862,
       "lng": 103.913994187667
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Al-Khair",
-    "No. of Sessions": "3 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": "English",
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Al-Khair",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "10:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.38264503460745,
       "lng": 103.750010414584
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Al-Mawaddah",
-    "No. of Sessions": "3 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": "Malay",
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Al-Mawaddah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      },
+      {
+        "time": "10:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.38344130978082,
       "lng": 103.890251310012
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Al-Mukminin",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Al-Mukminin",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.33921644391402,
       "lng": 103.741421884031
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Al-Muttaqin",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Al-Muttaqin",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.37052194585268,
       "lng": 103.845904787078
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Al-Taqua",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Al-Taqua",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32179653416997,
       "lng": 103.953501109845
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Angullia",
-    "No. of Sessions": "3 Sessions",
-    "Session 1 Khutbah Language": "English",
-    "Session 2 Khutbah Language": "Bengali",
-    "Session 3 Khutbah Language": "Tamil",
-    "Muslimah Prayer Space": "Not Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Angullia",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "English"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Bengali"
+      },
+      {
+        "time": "10:15 AM",
+        "language": "Tamil"
+      }
+    ],
+    "hasMuslimahPrayerSpace": false,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30361391565827,
       "lng": 103.829242156982
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid An-Nahdhah",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": null,
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid An-Nahdhah",
+    "isLessCrowded": true,
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35355556185729,
       "lng": 103.851131063043
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid An-Nur",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid An-Nur",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.44072763615816,
       "lng": 103.771877534569
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Ar-Raudhah",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Ar-Raudhah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35165826497431,
       "lng": 103.756024260587
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Assyafaah",
-    "No. of Sessions": "3 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": "Bengali",
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Assyafaah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      },
+      {
+        "time": "10:15 AM",
+        "language": "Bengali"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.45577050995774,
       "lng": 103.819381371528
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Assyakirin",
-    "No. of Sessions": "3 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": "Tamil",
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Assyakirin",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      },
+      {
+        "time": "10:15 AM",
+        "language": "Tamil"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.33544840128089,
       "lng": 103.719566221744
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Ba'alwie",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Timing": "8.30am",
-    "Session 1 Khutbah Language": "English*",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
+    "district": "South",
+    "locationName": "Masjid Ba'alwie",
+    "sessions": [
+      {
+        "time": "8:30 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32073352232102,
       "lng": 103.822590280918
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Bencoolen",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Arabic",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Bencoolen",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Arabic"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.29884558580411,
       "lng": 103.849843606852
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Darul Aman",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Darul Aman",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31796445871933,
       "lng": 103.904561547103
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Darul Ghufran",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay**",
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": "Booking is required for Session 1",
+    "district": "East",
+    "locationName": "Masjid Darul Ghufran",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": "Booking is required for Session 1",
     "coordinates": {
       "lat": 1.35528065111508,
       "lng": 103.93993380532
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Darul Makmur*",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": "Prayers to be conducted at Temp Site.",
+    "district": "North",
+    "locationName": "Masjid Darul Makmur*",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": "Prayers to be conducted at Temp Site.",
     "coordinates": {
       "lat": 1.43686614981845,
       "lng": 103.83434033765
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Darussalam",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Darussalam",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31248504081994,
       "lng": 103.771073229152
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid En-Naeem",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid En-Naeem",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.36092931253044,
       "lng": 103.892551072557
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Haji Mohd Salleh (Geylang)",
-    "No. of Sessions": "3 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": "Bengali",
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Haji Mohd Salleh (Geylang)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      },
+      {
+        "time": "10:15 AM",
+        "language": "Bengali"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31240484656975,
       "lng": 103.876888600758
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Haji Muhammad Salleh (Palmer)",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Timing": "8.00am",
-    "Session 1 Khutbah Language": "Malay*",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
+    "district": "South",
+    "locationName": "Masjid Haji Muhammad Salleh (Palmer)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.27283943416264,
       "lng": 103.847411373319
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Haji Yusoff",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Haji Yusoff",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35580654058068,
       "lng": 103.879714474791
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Hajjah Fatimah",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Timing": "8.00am",
-    "Session 1 Khutbah Language": "Malay*",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Not Available",
+    "district": "South",
+    "locationName": "Masjid Hajjah Fatimah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": false,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30291798131982,
       "lng": 103.862907913198
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Hajjah Rahimabi Kebun Limau",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Hajjah Rahimabi Kebun Limau",
+    "isLessCrowded": true,
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32611624278724,
       "lng": 103.854827462535
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Hang Jebat",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Hang Jebat",
+    "isLessCrowded": true,
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.2903493238116,
       "lng": 103.796457036966
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Hasanah",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Hasanah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32166368636589,
       "lng": 103.738170825514
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Hussain Sulaiman",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": null,
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Hussain Sulaiman",
+    "isLessCrowded": true,
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.29137428067036,
       "lng": 103.771711771028
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Jamae (Chulia)",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": null,
-    "Session 2 Khutbah Language": "Tamil",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Jamae (Chulia)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.2832630967971,
       "lng": 103.844857938644
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Jamek Queenstown",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": null,
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Jamek Queenstown",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.29301137234296,
       "lng": 103.815428353466
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Jamiyah Ar-Rabitah",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Jamiyah Ar-Rabitah",
+    "isLessCrowded": true,
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.28832868873592,
       "lng": 103.820155323568
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Kampong Delta",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": null,
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Not Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Kampong Delta",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": false,
+    "remarks": null,
     "coordinates": {
       "lat": 1.29164028211495,
       "lng": 103.828371406698
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Kampung Siglap",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Kampung Siglap",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30999797039772,
       "lng": 103.927800438998
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Kassim",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Kassim",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31871782896033,
       "lng": 103.912246650011
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Khadijah",
-    "No. of Sessions": "3 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "Bengali",
-    "Session 3 Khutbah Language": "Bengali",
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Khadijah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Bengali"
+      },
+      {
+        "time": "10:15 AM",
+        "language": "Bengali"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31418450398371,
       "lng": 103.886098564499
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Khalid",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Session 2 only",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Khalid",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31341618432483,
       "lng": 103.898941011024
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Maarof",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Maarof",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34851765818894,
       "lng": 103.704984361237
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Malabar",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Arabic",
-    "Session 2 Khutbah Language": "Arabic",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Malabar",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Arabic"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Arabic"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30503916442958,
       "lng": 103.859733415078
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Moulana Mohd Ali",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Arabic",
-    "Session 2 Khutbah Language": "Arabic",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Moulana Mohd Ali",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Arabic"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Arabic"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.28258418141456,
       "lng": 103.845954113164
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Muhajirin",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Muhajirin",
+    "isLessCrowded": true,
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34298997216698,
       "lng": 103.852062475426
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Mujahidin",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Mujahidin",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "isLessCrowded": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.29813057936034,
       "lng": 103.80095202592
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Mydin",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Mydin",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32120815100275,
       "lng": 103.911267761495
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Omar Kampong Melaka",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "English",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Omar Kampong Melaka",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.28781684606584,
       "lng": 103.844266388888
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Omar Salmah",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Omar Salmah",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "isLessCrowded": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.33468787442313,
       "lng": 103.831955902164
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Petempatan Melayu Sembawang",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": null,
-    "Session 2 Khutbah Language": "Malay",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Petempatan Melayu Sembawang",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.45909512625858,
       "lng": 103.841747361438
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Pusara Aman",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Pusara Aman",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.37322663565561,
       "lng": 103.694349458982
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Sallim Mattar",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Sallim Mattar",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32574679283198,
       "lng": 103.881230367298
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Sultan",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Timing": "8.00am",
-    "Session 2 Timing": "9.15am",
-    "Session 1 Khutbah Language": "Malay*",
-    "Session 2 Khutbah Language": "English*",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
+    "district": "South",
+    "locationName": "Masjid Sultan",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30114162138115,
       "lng": 103.860771460808
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Tasek Utara",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Not Available",
-    "Remarks": null,
+    "district": "South",
+    "locationName": "Masjid Tasek Utara",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": false,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31300789080779,
       "lng": 103.849141018794
     }
   },
   {
-    "District": "South",
-    "Location Name": "Masjid Temenggong Daeng Ibrahim",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Timing": "8.30am",
-    "Session 1 Khutbah Language": "Malay*",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
+    "district": "South",
+    "locationName": "Masjid Temenggong Daeng Ibrahim",
+    "sessions": [
+      {
+        "time": "8:30 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.26631495497006,
       "lng": 103.824254422419
     }
   },
   {
-    "District": "West",
-    "Location Name": "Masjid Tentera Di Raja",
-    "No. of Sessions": "1 Session Only",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Less Crowded": true,
-    "Remarks": null,
+    "district": "West",
+    "locationName": "Masjid Tentera Di Raja",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "isLessCrowded": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.29878403196681,
       "lng": 103.769167164764
     }
   },
   {
-    "District": "East",
-    "Location Name": "Masjid Wak Tanjong",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "Masjid Wak Tanjong",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31713992999416,
       "lng": 103.891260934228
     }
   },
   {
-    "District": "North",
-    "Location Name": "Masjid Yusof Ishak",
-    "No. of Sessions": "2 Sessions",
-    "Session 1 Khutbah Language": "Malay",
-    "Session 2 Khutbah Language": "English",
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "Masjid Yusof Ishak",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15 AM",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.4267250597963383,
       "lng": 103.79615500892905
     }
   },
   {
-    "District": "East",
-    "Location Name": "27A Balam Road Singapore 371027* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "27A Balam Road Singapore 371027* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.33038182281246,
       "lng": 103.885788977269
     }
   },
   {
-    "District": "East",
-    "Location Name": "112 Bedok North Road Singapore 460112* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "112 Bedok North Road Singapore 460112* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.33104907831935,
       "lng": 103.935538768198
     }
   },
   {
-    "District": "East",
-    "Location Name": "702 Bedok Reservoir Road Singapore 470702* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "702 Bedok Reservoir Road Singapore 470702* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.33590729186163,
       "lng": 103.922634043137
     }
   },
   {
-    "District": "East",
-    "Location Name": "775A Bedok Reservoir View Singapore 471775* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "775A Bedok Reservoir View Singapore 471775* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.3365778844156,
       "lng": 103.935932127712
     }
   },
   {
-    "District": "East",
-    "Location Name": "42A Circuit Road Singapore 371042* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "42A Circuit Road Singapore 371042* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32684923967733,
       "lng": 103.886293541726
     }
   },
   {
-    "District": "East",
-    "Location Name": "62 Marine Drive Singapore 440062* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "62 Marine Drive Singapore 440062* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30267023304987,
       "lng": 103.909040353592
     }
   },
   {
-    "District": "East",
-    "Location Name": "15A Marine Terrace Singapore 441015* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "15A Marine Terrace Singapore 441015* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30484546888462,
       "lng": 103.914257399726
     }
   },
   {
-    "District": "East",
-    "Location Name": "101 Pasir Ris Street 12 Singapore 510101* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "101 Pasir Ris Street 12 Singapore 510101* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.36705021516612,
       "lng": 103.958181857039
     }
   },
   {
-    "District": "East",
-    "Location Name": "757B Pasir Ris Street 71 Singapore 512757* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "757B Pasir Ris Street 71 Singapore 512757* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.37755384677881,
       "lng": 103.936383536913
     }
   },
   {
-    "District": "East",
-    "Location Name": "611 Tampines North Drive 1 Singapore 520611* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "611 Tampines North Drive 1 Singapore 520611* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.36570353911718,
       "lng": 103.934756980672
     }
   },
   {
-    "District": "East",
-    "Location Name": "286 Tampines Street 22 Singapore 520286* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "286 Tampines Street 22 Singapore 520286* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34744378451781,
       "lng": 103.950617728372
     }
   },
   {
-    "District": "East",
-    "Location Name": "353 Tampines Street 33 Singapore 520353* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "353 Tampines Street 33 Singapore 520353* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35221704775536,
       "lng": 103.956804059982
     }
   },
   {
-    "District": "East",
-    "Location Name": "450 Tampines Street 42 Singapore 520450* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "450 Tampines Street 42 Singapore 520450* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35742126002469,
       "lng": 103.951661274552
     }
   },
   {
-    "District": "East",
-    "Location Name": "498N Tampines Street 45 Singapore 529097* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "498N Tampines Street 45 Singapore 529097* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.36269973012518,
       "lng": 103.957806673373
     }
   },
   {
-    "District": "East",
-    "Location Name": "827A Tampines Street 81 Singapore 521827* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "827A Tampines Street 81 Singapore 521827* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34712992809362,
       "lng": 103.935805517506
     }
   },
   {
-    "District": "East",
-    "Location Name": "898 Tampines Street 81 Singapore 520898* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "898 Tampines Street 81 Singapore 520898* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35090347766615,
       "lng": 103.931049949489
     }
   },
   {
-    "District": "East",
-    "Location Name": "847 Tampines Street 83 Singapore 520847* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "847 Tampines Street 83 Singapore 520847* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35270336134679,
       "lng": 103.934557364626
     }
   },
   {
-    "District": "East",
-    "Location Name": "924 Tampines Street 91 Singapore 520924* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "924 Tampines Street 91 Singapore 520924* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34679100571296,
       "lng": 103.940776965834
     }
   },
   {
-    "District": "East",
-    "Location Name": "116 Simei Street 1 Singapore 520116* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "East",
+    "locationName": "116 Simei Street 1 Singapore 520116* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34275276797807,
       "lng": 103.950195189768
     }
   },
   {
-    "District": "North",
-    "Location Name": "23C Lor Buang Kok Singapore 547577 (Surau)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "23C Lor Buang Kok Singapore 547577 (Surau)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.38399851132008,
       "lng": 103.878775854657
     }
   },
   {
-    "District": "North",
-    "Location Name": "732A Woodlands Circle Singapore 731732 (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "732A Woodlands Circle Singapore 731732 (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.44288368531847,
       "lng": 103.798215801593
     }
   },
   {
-    "District": "North",
-    "Location Name": "524A Woodlands Drive 14 Singapore 731524 (Link House)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "524A Woodlands Drive 14 Singapore 731524 (Link House)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.43323089424302,
       "lng": 103.793327674611
     }
   },
   {
-    "District": "North",
-    "Location Name": "895E Woodlands Drive 50 Singapore 734895 (Link House)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "895E Woodlands Drive 50 Singapore 734895 (Link House)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.4358097899325,
       "lng": 103.792129777086
     }
   },
   {
-    "District": "North",
-    "Location Name": "786E Woodlands Drive 60 Singapore 735786 (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "786E Woodlands Drive 60 Singapore 735786 (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.44708104147411,
       "lng": 103.800563797362
     }
   },
   {
-    "District": "North",
-    "Location Name": "3 Woodlands Drive 63 Singapore 737890 (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "3 Woodlands Drive 63 Singapore 737890 (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.43856288054116,
       "lng": 103.793634541557
     }
   },
   {
-    "District": "North",
-    "Location Name": "178 Woodlands Street 13 Singapore 730178 (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "178 Woodlands Street 13 Singapore 730178 (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.43464080601813,
       "lng": 103.777670022616
     }
   },
   {
-    "District": "North",
-    "Location Name": "327 Yishun Ring Road Singapore 760327* (Sheltered Hard Court)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "327 Yishun Ring Road Singapore 760327* (Sheltered Hard Court)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.43345412197149,
       "lng": 103.83891867844
     }
   },
   {
-    "District": "North",
-    "Location Name": "607 Yishun Street 61 Singapore 760607 (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "North",
+    "locationName": "607 Yishun Street 61 Singapore 760607 (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.42138604430426,
       "lng": 103.835604224236
     }
   },
   {
-    "District": "West",
-    "Location Name": "189A Boon Lay Drive Singapore 641189* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "189A Boon Lay Drive Singapore 641189* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34461796002737,
       "lng": 103.71113773766
     }
   },
   {
-    "District": "West",
-    "Location Name": "207A Boon Lay Place Singapore 641207* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "207A Boon Lay Place Singapore 641207* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34704875545729,
       "lng": 103.713655557468
     }
   },
   {
-    "District": "West",
-    "Location Name": "448D Bukit Batok West Avenue 9 Singapore 650448* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "448D Bukit Batok West Avenue 9 Singapore 650448* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35017339059587,
       "lng": 103.739086387813
     }
   },
   {
-    "District": "West",
-    "Location Name": "813 Choa Chu Kang Avenue 7 Singapore 680813* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "813 Choa Chu Kang Avenue 7 Singapore 680813* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.38555516336432,
       "lng": 103.745261508747
     }
   },
   {
-    "District": "West",
-    "Location Name": "660A Choa Chu Kang Crescent Singapore 681660* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "660A Choa Chu Kang Crescent Singapore 681660* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.40102235751598,
       "lng": 103.749862447053
     }
   },
   {
-    "District": "West",
-    "Location Name": "669A Choa Chu Kang Crescent Singapore 681669* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "669A Choa Chu Kang Crescent Singapore 681669* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.40201704788428,
       "lng": 103.750489133529
     }
   },
   {
-    "District": "West",
-    "Location Name": "563 Choa Chu Kang Street 52 Singapore 680563* (Multi-Purpose Hall)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "563 Choa Chu Kang Street 52 Singapore 680563* (Multi-Purpose Hall)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.39402627739183,
       "lng": 103.744121079543
     }
   },
   {
-    "District": "West",
-    "Location Name": "706 Clementi West Street 2 Singapore 120706 (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "706 Clementi West Street 2 Singapore 120706 (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.30676076028652,
       "lng": 103.762363136976
     }
   },
   {
-    "District": "West",
-    "Location Name": "432 Jurong West Street 42 Singapore 640432 (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "432 Jurong West Street 42 Singapore 640432 (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.35256372860883,
       "lng": 103.723569457588
     }
   },
   {
-    "District": "West",
-    "Location Name": "842 Jurong West Street 81 Singapore 640842* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "842 Jurong West Street 81 Singapore 640842* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.34699810840798,
       "lng": 103.69452875928
     }
   },
   {
-    "District": "West",
-    "Location Name": "404 Pandan Gardens Singapore 600404* (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "404 Pandan Gardens Singapore 600404* (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.32035484260702,
       "lng": 103.750300419587
     }
   },
   {
-    "District": "West",
-    "Location Name": "508 West Coast Drive Singapore 120508 (Void Deck)",
-    "No. of Sessions": "1 Session",
-    "Session 1 Timing": "8.15am",
-    "Session 1 Khutbah Language": "-",
-    "Session 2 Khutbah Language": null,
-    "Session 3 Khutbah Language": null,
-    "Muslimah Prayer Space": "Available",
-    "Remarks": null,
+    "district": "West",
+    "locationName": "508 West Coast Drive Singapore 120508 (Void Deck)",
+    "sessions": [
+      {
+        "time": "8:15 AM",
+        "language": "-"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
     "coordinates": {
       "lat": 1.31165973523805,
       "lng": 103.761761494233

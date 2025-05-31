@@ -1,16 +1,15 @@
+export interface Session {
+  time: string
+  language: string | null
+}
+
 export interface PrayerSession {
-  District: string
-  "Location Name": string
-  "No. of Sessions": string
-  "Session 1 Timing"?: string
-  "Session 2 Timing"?: string
-  "Session 3 Timing"?: string
-  "Session 1 Khutbah Language": string | null
-  "Session 2 Khutbah Language": string | null
-  "Session 3 Khutbah Language": string | null
-  "Muslimah Prayer Space": string
-  "Less Crowded"?: string
-  Remarks: string | null
+  district: string
+  locationName: string
+  sessions: Session[]
+  hasMuslimahPrayerSpace: boolean
+  remarks: string | null
+  isLessCrowded: boolean
   coordinates?: {
     lat: number
     lng: number

@@ -63,9 +63,9 @@ export function SortPanel({
                 "after:absolute after:inset-0 after:translate-x-[-100%] after:bg-gradient-to-r after:from-transparent after:via-white/25 after:to-transparent",
                 "after:animate-shine after:duration-1000"
               ],
-              postalCode.length === 6 && !isLoading 
-                ? isSorted 
-                  ? 'bg-gray-700 hover:bg-gray-800' 
+              postalCode.length === 6 && !isLoading
+                ? isSorted
+                  ? 'bg-gray-700 hover:bg-gray-800'
                   : 'bg-gray-900 hover:bg-gray-800'
                 : 'bg-gray-600 hover:bg-gray-700 text-gray-100'
             )}
@@ -73,9 +73,9 @@ export function SortPanel({
             disabled={postalCode.length !== 6 || isLoading}
           >
             <MapPin className="h-4 w-4 mr-2" />
-            {isLoading 
-              ? "Getting location..." 
-              : isSorted 
+            {isLoading
+              ? "Getting location..."
+              : isSorted
                 ? "Update Postal Code"
                 : "Sort by Distance"
             }

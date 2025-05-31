@@ -18,6 +18,7 @@ interface FilterPanelProps {
   districts: string[]
   selectedDistrict: string
   setSelectedDistrict: (district: string) => void
+  sessionTimes: string[]
   selectedSession: string
   setSelectedSession: (session: string) => void
   selectedLanguage: string
@@ -34,6 +35,7 @@ export function FilterPanel({
   districts,
   selectedDistrict,
   setSelectedDistrict,
+  sessionTimes,
   selectedSession,
   setSelectedSession,
   selectedLanguage,
@@ -53,10 +55,10 @@ export function FilterPanel({
     const checkIfMobile = () => {
       setIsMobile(window.innerWidth < 768) // md breakpoint
     }
-    
+
     checkIfMobile()
     window.addEventListener('resize', checkIfMobile)
-    
+
     return () => window.removeEventListener('resize', checkIfMobile)
   }, [])
 
@@ -92,7 +94,7 @@ export function FilterPanel({
                 <Filter className="h-4 w-4 text-primary mr-2" />
                 <h2 className="text-lg font-medium">Filter</h2>
               </div>
-              <ChevronDown 
+              <ChevronDown
                 className={`h-4 w-4 transition-transform ${isOpen ? "transform rotate-180" : ""}`}
               />
             </Button>
@@ -111,7 +113,7 @@ export function FilterPanel({
             <div className="mb-4">
               <Input
                 type="text"
-                placeholder="Search by mosque name / qoryah address"
+                placeholder="Search by mosque name / qaryah address"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="border-gray-200 focus-visible:ring-primary/20"
@@ -124,8 +126,8 @@ export function FilterPanel({
                   District
                 </Label>
                 <Select value={selectedDistrict} onValueChange={setSelectedDistrict}>
-                  <SelectTrigger 
-                    id="district" 
+                  <SelectTrigger
+                    id="district"
                     className="border-gray-200 focus:ring-primary/20"
                   >
                     <SelectValue placeholder="Select district">
@@ -155,18 +157,19 @@ export function FilterPanel({
 
               <div className="space-y-2">
                 <Label htmlFor="session" className="text-gray-700">
-                  Prayer Session
+                  Prayer Time
                 </Label>
                 <div className="space-y-1">
                   <Select value={selectedSession} onValueChange={setSelectedSession}>
                     <SelectTrigger id="session" className="border-gray-200">
-                      <SelectValue placeholder="Select session" />
+                      <SelectValue placeholder="Select time" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="all">All Sessions</SelectItem>
-                      <SelectItem value="Session 1">Session 1</SelectItem>
-                      <SelectItem value="Session 2">Session 2</SelectItem>
-                      <SelectItem value="Session 3">Session 3</SelectItem>
+                      {sessionTimes.map((time) => (
+                        <SelectItem key={time} value={time}>
+                          {time === "all" ? "All Sessions" : time}
+                        </SelectItem>
+                      ))}
                     </SelectContent>
                   </Select>
                 </div>
@@ -183,7 +186,7 @@ export function FilterPanel({
                   <SelectContent>
                     <SelectItem value="all">All Locations</SelectItem>
                     <SelectItem value="mosques">Mosques</SelectItem>
-                    <SelectItem value="supplementary">Qoryah Venues</SelectItem>
+                    <SelectItem value="supplementary">Qaryah Venues</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -214,8 +217,8 @@ export function FilterPanel({
                 checked={showLessCrowded}
                 onCheckedChange={setShowLessCrowded}
               />
-              <Label 
-                htmlFor="less-crowded" 
+              <Label
+                htmlFor="less-crowded"
                 className="text-gray-700 cursor-pointer"
               >
                 Less crowded locations

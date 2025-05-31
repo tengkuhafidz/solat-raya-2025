@@ -1,6 +1,7 @@
 "use client"
 
 import { FilterPanel } from "@/components/filter-panel"
+import { ImageBanner } from "@/components/image-banner"
 import { InfoDialog } from "@/components/info-dialog"
 import { PrayerSessionList } from "@/components/prayer-session-list"
 import { SortPanel } from "@/components/sort-panel"
@@ -9,8 +10,6 @@ import { calculateDistance } from "@/lib/utils"
 import type { PrayerSession } from "@/types/prayer-session"
 import { Info } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
-import { ImageBanner } from "@/components/image-banner"
-import { TextBanner } from "@/components/text-banner"
 
 export default function Home() {
   const [filteredSessions, setFilteredSessions] = useState<PrayerSession[]>([])
@@ -31,7 +30,27 @@ export default function Home() {
   const [showLessCrowded, setShowLessCrowded] = useState(false)
 
   // Get unique districts for filter dropdown
-  const districts = ["all", ...new Set(prayerSessionsData.map((session) => session.District))]
+  const districts = ["all", ...new Set(prayerSessionsData.map((session) => session.district))]
+
+  // Get unique session times for filter dropdown
+  const sessionTimes = [
+    "all",
+    ...Array.from(
+      new Set(
+        prayerSessionsData.flatMap((session) => session.sessions.map((s) => s.time))
+      )
+    ).sort((a, b) => {
+      // Sort times in ascending order
+      const parseTime = (t: string) => {
+        const [h, m, period] = t.match(/(\d+):(\d+)\s*(AM|PM)/i)?.slice(1) || []
+        let hour = parseInt(h)
+        if (period?.toUpperCase() === "PM" && hour !== 12) hour += 12
+        if (period?.toUpperCase() === "AM" && hour === 12) hour = 0
+        return hour * 60 + parseInt(m)
+      }
+      return parseTime(a) - parseTime(b)
+    })
+  ]
 
   useEffect(() => {
     let result = [...prayerSessionsData]
@@ -39,37 +58,29 @@ export default function Home() {
     // Apply all filters first
     if (searchTerm) {
       result = result.filter((session) =>
-        session["Location Name"].toLowerCase().includes(searchTerm.toLowerCase())
+        session.locationName.toLowerCase().includes(searchTerm.toLowerCase())
       )
     }
 
     // Apply district filter
     if (selectedDistrict !== "all") {
-      result = result.filter((session) => session.District === selectedDistrict)
+      result = result.filter((session) => session.district === selectedDistrict)
     }
 
-    // Apply session filter
+    // Apply session time filter
     if (selectedSession !== "all") {
-      switch (selectedSession) {
-        case "Session 1":
-          result = result.filter((session) => session["Session 1 Khutbah Language"] !== null)
-          break
-        case "Session 2":
-          result = result.filter((session) => session["Session 2 Khutbah Language"] !== null)
-          break
-        case "Session 3":
-          result = result.filter((session) => session["Session 3 Khutbah Language"] !== null)
-          break
-      }
+      result = result.filter((session) =>
+        session.sessions.some((s) => s.time === selectedSession)
+      )
     }
 
     // Apply location type filter
     switch (locationType) {
       case "mosques":
-        result = result.filter((session) => session["Location Name"].startsWith("Masjid"))
+        result = result.filter((session) => session.locationName.startsWith("Masjid"))
         break
       case "supplementary":
-        result = result.filter((session) => !session["Location Name"].startsWith("Masjid"))
+        result = result.filter((session) => !session.locationName.startsWith("Masjid"))
         break
       // "all" case doesn't need filtering
     }
@@ -77,9 +88,7 @@ export default function Home() {
     // Apply language filter
     if (selectedLanguage !== "all") {
       result = result.filter((session) =>
-        session["Session 1 Khutbah Language"]?.includes(selectedLanguage) ||
-        session["Session 2 Khutbah Language"]?.includes(selectedLanguage) ||
-        session["Session 3 Khutbah Language"]?.includes(selectedLanguage)
+        session.sessions.some(s => s.language?.includes(selectedLanguage))
       )
     }
 
@@ -105,12 +114,12 @@ export default function Home() {
       })
     } else {
       // Default sort by location name
-      result.sort((a, b) => b["Location Name"].localeCompare(a["Location Name"]))
+      result.sort((a, b) => b.locationName.localeCompare(a.locationName))
     }
 
     // Add Less Crowded filter
     if (showLessCrowded) {
-      result = result.filter((session) => session["Less Crowded"])
+      result = result.filter((session) => session.isLessCrowded)
     }
 
     setFilteredSessions(result as PrayerSession[])
@@ -228,6 +237,7 @@ export default function Home() {
           districts={districts}
           selectedDistrict={selectedDistrict}
           setSelectedDistrict={setSelectedDistrict}
+          sessionTimes={sessionTimes}
           selectedSession={selectedSession}
           setSelectedSession={setSelectedSession}
           selectedLanguage={selectedLanguage}
