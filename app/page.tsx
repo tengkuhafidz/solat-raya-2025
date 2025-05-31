@@ -1,7 +1,6 @@
 "use client"
 
 import { FilterPanel } from "@/components/filter-panel"
-import { ImageBanner } from "@/components/image-banner"
 import { InfoDialog } from "@/components/info-dialog"
 import { PrayerSessionList } from "@/components/prayer-session-list"
 import { SortPanel } from "@/components/sort-panel"
@@ -54,6 +53,7 @@ export default function Home() {
 
   useEffect(() => {
     let result = [...prayerSessionsData]
+    console.log("result", result)
 
     // Apply all filters first
     if (searchTerm) {
@@ -77,10 +77,10 @@ export default function Home() {
     // Apply location type filter
     switch (locationType) {
       case "mosques":
-        result = result.filter((session) => session.locationName.startsWith("Masjid"))
+        result = result.filter((session) => session.type === "Mosque")
         break
       case "supplementary":
-        result = result.filter((session) => !session.locationName.startsWith("Masjid"))
+        result = result.filter((session) => session.type === "Qaryah")
         break
       // "all" case doesn't need filtering
     }
@@ -91,9 +91,11 @@ export default function Home() {
         session.sessions.some(s => s.language?.includes(selectedLanguage))
       )
     }
-
+    console.log("isSortedByDistance", isSortedByDistance)
     // Apply sorting based on state
     if (isSortedByDistance && userCoords) {
+      console.log("sorting by distance", result)
+
       result.sort((a, b) => {
         if (!a.coordinates || !b.coordinates) return 0
 
@@ -109,12 +111,18 @@ export default function Home() {
           b.coordinates.lat,
           b.coordinates.lng
         )
-
+        console.log("distanceA", a.locationName, distanceA)
+        console.log("distanceB", b.locationName, distanceB)
         return distanceA - distanceB
       })
+      console.log("sorted result", result)
     } else {
+      console.log("sorting by location name", result)
+
       // Default sort by location name
       result.sort((a, b) => b.locationName.localeCompare(a.locationName))
+      console.log("sorted by location name", result)
+
     }
 
     // Add Less Crowded filter
@@ -197,7 +205,7 @@ export default function Home() {
         </div>
 
         {/* Text Banner - New addition */}
-        <ImageBanner />
+        {/* <ImageBanner /> */}
 
         {/* Hero content */}
         {/* <div className="mt-2 mx-2">
@@ -211,7 +219,7 @@ export default function Home() {
                 🕌 🌙 🇸🇬
               </div>
               <h1 className="text-4xl md:text-4xl font-bold text-white mb-2">
-                Solat Raya 2025
+                Solat Raya Aidiladha 2025
               </h1>
               <p className="text-white/80 max-w-md mx-auto mb-6">
                 Find prayer sessions across various locations
@@ -257,11 +265,11 @@ export default function Home() {
               {filteredSessions.length} locations
             </div>
             <div className="text-xs text-gray-400">
-              Source: <a href="https://ramadan.ourmasjid.sg/hari-raya-puasa-prayer-arrangements/"
+              Source: <a href="https://www.instagram.com/p/DKRYAejuyTH/?igsh=bzExZjVtczNybHl1"
                 className="underline hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
-              >SalaamSG</a> · 22/3/2025
+              >muis.sg</a> · 31/5/2025
             </div>
           </div>
 

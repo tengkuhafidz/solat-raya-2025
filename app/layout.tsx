@@ -8,12 +8,12 @@ import { GoogleAnalytics } from "@/components/google-analytics"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Solat Raya 2025 Singapore | Prayer Locations & Timings',
-  description: 'Find Hari Raya Aidilfitri prayer locations across Singapore mosques. View prayer times, khutbah languages, and directions to all mosques and supplementary prayer spaces.',
-  keywords: 'solat raya, hari raya prayers, singapore mosques, aidilfitri prayers, raya prayer times, masjid singapore',
+  title: 'Solat Raya Aidiladha 2025 Singapore | Prayer Locations & Timings',
+  description: 'Find Hari Raya Aidiladha prayer locations across Singapore mosques. View prayer times, khutbah languages, and directions to all mosques and supplementary prayer spaces.',
+  keywords: 'solat raya, hari raya prayers, singapore mosques, aidiladha prayers, raya prayer times, masjid singapore',
   openGraph: {
-    title: 'Solat Raya 2025 Singapore | Prayer Locations & Timings',
-    description: 'Find Hari Raya prayers across Singapore mosques. View prayer times, khutbah languages & directions.',
+    title: 'Solat Raya Aidiladha 2025 Singapore | Prayer Locations & Timings',
+    description: 'Find Hari Raya Aidiladha prayers across Singapore mosques. View prayer times, khutbah languages & directions.',
     type: 'website',
     locale: 'en_SG',
     url: 'https://solat-raya.usemeem.com',
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Solat Raya 2025 Prayer Sessions",
-    description: "Find prayer sessions across various locations for Hari Raya 2025",
+    title: "Solat Raya Aidiladha 2025 Prayer Sessions",
+    description: "Find prayer sessions across various locations for Hari Raya Aidiladha 2025",
     images: ["/preview.jpg"]
   }
 }
@@ -43,14 +43,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script 
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "Solat Raya 2025 Singapore",
-              "description": "Find Hari Raya prayer locations across Singapore mosques",
+              "name": "Solat Raya Aidiladha 2025 Singapore",
+              "description": "Find Hari Raya Aidiladha prayer locations across Singapore mosques",
               "provider": {
                 "@type": "Organization",
                 "name": "Meem",

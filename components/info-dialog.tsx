@@ -24,8 +24,8 @@ export function InfoDialog({ open, onOpenChange }: InfoDialogProps) {
           <section>
             <h3 className="font-medium mb-2">Solat Raya 2025 Prayer Sessions</h3>
             <p className="text-gray-600">
-              This is a mini project by Meem to help Muslims in Singapore find suitable Solat Raya prayer venues. 
-              Data is sourced from <a href="https://ramadan.ourmasjid.sg/hari-raya-puasa-prayer-arrangements/" className="text-primary hover:text-primary-dark underline" target="_blank" rel="noopener noreferrer">SalaamSG <ExternalLink className="inline w-3 h-3" /></a>, Last updated on 22 March 2025.
+              This is a mini project by Meem to help Muslims in Singapore find suitable Solat Raya prayer venues.
+              Data is sourced from <a href="https://www.instagram.com/p/DKRYAejuyTH/?igsh=bzExZjVtczNybHl1" className="text-primary hover:text-primary-dark underline" target="_blank" rel="noopener noreferrer">muis.sg <ExternalLink className="inline w-3 h-3" /></a>, Last updated on 31 May 2025.
             </p>
           </section>
 
@@ -35,9 +35,9 @@ export function InfoDialog({ open, onOpenChange }: InfoDialogProps) {
               Meem is Singapore's trusted platform connecting Muslims with ARS-certified asatizah. We're committed to making Islamic education and services more accessible to the community.
             </p>
             <div className="mt-2">
-              <a 
-                href="https://meem.to/from-solat-raya" 
-                target="_blank" 
+              <a
+                href="https://meem.to/from-solat-raya"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-primary hover:text-primary-dark"
               >
