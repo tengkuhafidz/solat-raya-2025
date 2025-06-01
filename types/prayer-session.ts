@@ -14,5 +14,6 @@ export interface PrayerSession {
     lat: number
     lng: number
   }
+  type: string
 }
 

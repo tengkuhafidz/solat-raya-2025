@@ -91,7 +91,9 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
               Mapview
             </Button>
           </div>
-          <CardTitle className="text-gray-800 text-lg w-full">{session.locationName}</CardTitle>
+          <CardTitle className="text-gray-800 text-lg w-full">
+            {session.type === "Mosque" ? `Masjid ${session.locationName}` : session.locationName}
+          </CardTitle>
         </div>
       </CardHeader>
       <CardContent className="pt-4 bg-white/95">
