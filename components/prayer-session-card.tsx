@@ -18,7 +18,10 @@ export function PrayerSessionCard({ session, distance }: PrayerSessionCardProps)
           <div key={index} className="flex flex-col sm:flex-row sm:items-center text-sm gap-1 sm:gap-2">
             <div className="flex items-center">
               <Clock className="h-4 w-4 mr-2 text-primary shrink-0" />
-              <span className="font-medium whitespace-nowrap">{s.time}{s.language && s.language !== "-" ? ` (${s.language} Khutbah)` : ""}</span>
+              <span className="font-medium whitespace-nowrap">
+                {s.time}
+                {s.language ? ` (${s.language} Khutbah)` : " (Language not specified)"}
+              </span>
             </div>
           </div>
         ))}
