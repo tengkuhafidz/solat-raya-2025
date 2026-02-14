@@ -148,9 +148,18 @@ export default function TarawihPage() {
                 </a>
               </div>
 
+              <a
+                href="https://ramadan.usemeem.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[13px] text-white/60 hover:text-white/80 ml-auto"
+              >
+                Imsakiah Calendar ↗
+              </a>
+
               <button
                 onClick={() => setInfoOpen(true)}
-                className="text-[13px] text-white/60 hover:text-white/80 flex items-center gap-1 ml-auto"
+                className="text-[13px] text-white/60 hover:text-white/80 flex items-center gap-1 ml-3"
               >
                 More info
                 <Info className="w-3 h-3" />
