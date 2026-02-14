@@ -1,0 +1,2017 @@
+[
+  {
+    "type": "Mosque",
+    "locationName": "Abdul Aleem Siddique",
+    "address": "90 Lor K Telok Kurau Singapore 425723",
+    "district": "East",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": "Daily",
+    "qiyamullail": "11 – 19 Mar 2026, 3:30 AM – 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31310423505768,
+      "lng": 103.912705910938
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Abdul Gafoor",
+    "address": "41 Dunlop Street Singapore 209369",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir (2 sessions)",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar (Hanafi), 1 – 30 Ramadan",
+    "childmindingServices": "Daily",
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM (Odd nights only)",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30448398785878,
+      "lng": 103.85368950305
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Abdul Hamid Kampung Pasiran",
+    "address": "10 Gentle Road Singapore 309194",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 29 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM (Odd nights only)",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.319608,
+      "lng": 103.839305
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Ahmad",
+    "address": "2 Lorong Sarhad Singapore 119173",
+    "district": "West",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 28 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.2810909741079544,
+      "lng": 103.78725576772771
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Ahmad Ibrahim",
+    "address": "15 Jalan Ulu Seletar Singapore 769227",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.43315271543517,
+      "lng": 103.832942401086
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Abdul Razak",
+    "address": "30 Jalan Ismail Singapore 419285",
+    "district": "East",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:45 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32339895187489,
+      "lng": 103.907302807628
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Abrar",
+    "address": "192 Telok Ayer Street Singapore 068635",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "Mon – Fri: After Asar, Sat – Sun: After Zohor, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM (Odd nights only)",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.28032210562498,
+      "lng": 103.847216983935
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Amin",
+    "address": "50 Telok Blangah Way Singapore 098801",
+    "district": "South",
+    "rakaat": "Sun – Fri: 8 Rakaat + Witir, Sat: 20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:45 AM - 5 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.27520461393923,
+      "lng": 103.81927883949
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Ansar",
+    "address": "155 Bedok North Avenue 1 Singapore 469751",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": "Every Fri – Sat",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32697321797939,
+      "lng": 103.926385559867
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Falah",
+    "address": "22 Bideford Road, #01-01 Singapore 229923",
+    "district": "South",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 28 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.3037754296615,
+      "lng": 103.836653682351
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Firdaus",
+    "address": "1 Jalan Ibadat Singapore 698955",
+    "district": "West",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.37496290426076,
+      "lng": 103.71645968696
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Huda",
+    "address": "34 Jalan Haji Alias Singapore 268534",
+    "district": "West",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32318810145539,
+      "lng": 103.794916529327
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Iman",
+    "address": "10 Bukit Panjang Ring Road Singapore 679943",
+    "district": "West",
+    "rakaat": "First 7 Nights: 8 Rakaat + Witir + Tazkirah, Sun – Thu: 20 Rakaat + Witir, Fri – Sat: 8 Rakaat + Witir + Tazkirah",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": "Daily",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.37813023615872,
+      "lng": 103.772762574397
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Islah",
+    "address": "30 Punggol Field Singapore 828812",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": "Every Fri – Sun",
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.40124380624977,
+      "lng": 103.901498997391
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Istighfar",
+    "address": "2 Pasir Ris Walk Singapore 518239",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3 AM – 5 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.37099780404453,
+      "lng": 103.964110386822
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Istiqamah",
+    "address": "2 Serangoon North Avenue 2 Singapore 555876",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4:15 AM – 5:15 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.36920170635718,
+      "lng": 103.875626641606
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Alkaff Kampung Melayu",
+    "address": "200 Bedok Reservoir Road Singapore 479221",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.33668967461862,
+      "lng": 103.913994187667
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Alkaff Upper Serangoon",
+    "address": "66 Pheng Geck Avenue Singapore 348261",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 29 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:45 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.33672709655552,
+      "lng": 103.874461693657
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Khair",
+    "address": "1 Teck Whye Crescent Singapore 688847",
+    "district": "West",
+    "rakaat": "Sat – Thu: 8 Rakaat + Witir, Fri: 20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.38264503460745,
+      "lng": 103.750010414584
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Mawaddah",
+    "address": "151 Compassvale Bow Singapore 544997",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": "Every Fri – Sat and during school holidays",
+    "qiyamullail": "Last 10 nights of Ramadan",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.38344130978082,
+      "lng": 103.890251310012
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Mukminin",
+    "address": "271 Jurong East Street 21 Singapore 609603",
+    "district": "West",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": "Every Sat",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM – 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.33921644391402,
+      "lng": 103.741421884031
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Muttaqin",
+    "address": "5140 Ang Mo Kio Avenue 6 Singapore 569844",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 30 Ramadan",
+    "childmindingServices": "Every Fri – Sun and during school holidays",
+    "qiyamullail": "Last 10 nights of Ramadan",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.37052194585268,
+      "lng": 103.845904787078
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Al-Taqua",
+    "address": "11A Jalan Bilal Singapore 468862",
+    "district": "East",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32179653416997,
+      "lng": 103.953501109845
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Angullia",
+    "address": "265 Serangoon Road Singapore 218099",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar (Hanafi), 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM – 5 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30361391565827,
+      "lng": 103.829242156982
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "An-Nahdhah",
+    "address": "9A Bishan Street 14 Singapore 579786",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.35355556185729,
+      "lng": 103.851131063043
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "An-Nur",
+    "address": "6 Admiralty Road Singapore 739983",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": "Every Fri – Sat",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM – 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.44072763615816,
+      "lng": 103.771877534569
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Ar-Raudhah",
+    "address": "30 Bukit Batok East Avenue 2 Singapore 659919",
+    "district": "West",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 29 Ramadan",
+    "childmindingServices": "Every Fri – Sat",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:45 AM – 4:45 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.35165826497431,
+      "lng": 103.756024260587
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Assyafaah",
+    "address": "1 Admiralty Lane Singapore 757620",
+    "district": "North",
+    "rakaat": "Fri: 8 Rakaat + Witir, Sat – Thu: 20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 28 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM – 5 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.45577050995774,
+      "lng": 103.819381371528
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Assyakirin",
+    "address": "550 Yung An Road Singapore 618617",
+    "district": "West",
+    "rakaat": "Sun – Thu: 8 Rakaat + Witir, Fri – Sat: 20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM – 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.33544840128089,
+      "lng": 103.719566221744
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Ba'alwie",
+    "address": "2 Lewis Road Singapore 258590",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32073352232102,
+      "lng": 103.822590280918
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Bencoolen",
+    "address": "59 Bencoolen Street, #01-01 Singapore 189630",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "4:30 PM and 5:30 PM, 1 – 30 Ramadan",
+    "childmindingServices": "Daily (For Muslimin only)",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM – 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.29884558580411,
+      "lng": 103.849843606852
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Darul Aman",
+    "address": "1 Jalan Eunos Singapore 419493",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "Sat – Thu: After Asar, Fri: After Fri prayers, 1 – 27 Ramadan",
+    "childmindingServices": "Every Sat – Sun",
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31796445871933,
+      "lng": 103.904561547103
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Darul Ghufran",
+    "address": "503 Tampines Avenue 5 Singapore 529651",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4:15 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.35528065111508,
+      "lng": 103.93993380532
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Darul Makmur",
+    "address": "950 Yishun Avenue 2 Singapore 769099",
+    "district": "North",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 29 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.43686614981845,
+      "lng": 103.83434033765
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Darussalam",
+    "address": "3002 Commonwealth Avenue West Singapore 129579",
+    "district": "West",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 22 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31248504081994,
+      "lng": 103.771073229152
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "En-Naeem",
+    "address": "120 Tampines Road Singapore 535136",
+    "district": "North",
+    "rakaat": "Fri – Sat: 8 Rakaat + Witir, Sun – Thu: 20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "Sat – Thu: After Asar, Fri: After Fri prayers, 1 – 27 Ramadan",
+    "childmindingServices": "Every Fri",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.36092931253044,
+      "lng": 103.892551072557
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Haji Mohd Salleh",
+    "address": "245 Geylang Road Singapore 389304",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 29 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31240484656975,
+      "lng": 103.876888600758
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Haji Muhammad Salleh",
+    "address": "37 Palmer Road Singapore 079424",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.27283943416264,
+      "lng": 103.847411373319
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Haji Yusoff",
+    "address": "2 Hillside Drive Singapore 548920",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.35580654058068,
+      "lng": 103.879714474791
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Hajjah Fatimah",
+    "address": "4001 Beach Road Singapore 199584",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30291798131982,
+      "lng": 103.862907913198
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Hajjah Rahimabi Kebun Limau",
+    "address": "76 Kim Keat Road Singapore 328835",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": "Every Sat - Sun",
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32611624278724,
+      "lng": 103.854827462535
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Hang Jebat",
+    "address": "100 Jalan Hang Jebat Singapore 139533",
+    "district": "West",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM (Odd nights only)",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.2903493238116,
+      "lng": 103.796457036966
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Hasanah",
+    "address": "492 Teban Gardens Singapore 608878",
+    "district": "West",
+    "rakaat": "Fri – Sat: 8 Rakaat + Witir + Tazkirah, Sun – Thu: 20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": "1 – 5, 9 – 11, 16 – 18 & 23 – 25 Ramadan only",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM – 5 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32166368636589,
+      "lng": 103.738170825514
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Hussain Sulaiman",
+    "address": "394 Pasir Panjang Road Singapore 118730",
+    "district": "West",
+    "rakaat": "Sun – Thu: 10 Rakaat + Witir, Fri – Sat: 8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.29137428067036,
+      "lng": 103.771711771028
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Jamae Chulia",
+    "address": "218 South Bridge Road Singapore 058767",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.2832630967971,
+      "lng": 103.844857938644
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Jamek Queenstown",
+    "address": "946 Margaret Drive Singapore 149309",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 29 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.29301137234296,
+      "lng": 103.815428353466
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Jamiyah Ar-Rabitah",
+    "address": "601 Tiong Bahru Road Singapore 158787",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 28 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.28832868873592,
+      "lng": 103.820155323568
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Kampong Delta",
+    "address": "10 Delta Avenue Singapore 169831",
+    "district": "South",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 20 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:45 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.29164028211495,
+      "lng": 103.828371406698
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Kampung Siglap",
+    "address": "451 Marine Parade Road Singapore 449283",
+    "district": "East",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 20 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30999797039772,
+      "lng": 103.927800438998
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Kassim",
+    "address": "450 Changi Road Singapore 419877",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 25 Ramadan",
+    "childmindingServices": "Every Fri – Sat",
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM – 5 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31871782896033,
+      "lng": 103.912246650011
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Khadijah",
+    "address": "583 Geylang Road Singapore 389522",
+    "district": "East",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31418450398371,
+      "lng": 103.886098564499
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Khalid",
+    "address": "130 Joo Chiat Road Singapore 427727",
+    "district": "East",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31341618432483,
+      "lng": 103.898941011024
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Maarof",
+    "address": "20 Jurong West Street 26 Singapore 648125",
+    "district": "West",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 20 Ramadan",
+    "childmindingServices": "Daily",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34851765818894,
+      "lng": 103.704984361237
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Malabar",
+    "address": "471 Victoria Street Singapore 198370",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "Sat – Thu: After Asar, Fri: After Fri prayers & after Asar, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM (Odd nights only)",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30503916442958,
+      "lng": 103.859733415078
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Moulana Mohd Ali",
+    "address": "80 Raffles Place, #B1-01, UOB Plaza Singapore 048624",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "27 Ramadan only, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.28258418141456,
+      "lng": 103.845954113164
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Muhajirin",
+    "address": "275 Braddell Road Singapore 579704",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 25 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34298997216698,
+      "lng": 103.852062475426
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Mujahidin",
+    "address": "590 Stirling Road Singapore 148952",
+    "district": "South",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar & after Fri prayers, 1 – 28 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.29813057936034,
+      "lng": 103.80095202592
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Mydin",
+    "address": "67 Jalan Lapang Singapore 419007",
+    "district": "East",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 26 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32120815100275,
+      "lng": 103.911267761495
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Omar Kampong Melaka",
+    "address": "10 Keng Cheow Street Singapore 059607",
+    "district": "South",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 28 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.28781684606584,
+      "lng": 103.844266388888
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Omar Salmah",
+    "address": "411-B Jalan Mashhor Singapore 299173",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.33468787442313,
+      "lng": 103.831955902164
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Petempatan Melayu Sembawang",
+    "address": "27-B Jalan Mempurong Singapore 759055",
+    "district": "North",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "Sat – Thu: After Zohor & after Asar, Fri: After Fri prayers",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.45909512625858,
+      "lng": 103.841747361438
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Pulau Bukom",
+    "address": "Privy Box 921095 Singapore 929292",
+    "district": "South",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 29 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": null
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Pusara Aman",
+    "address": "11 Lim Chu Kang Road Singapore 719452",
+    "district": "West",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": "Daily",
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM (Odd nights only)",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.37322663565561,
+      "lng": 103.694349458982
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Sallim Mattar",
+    "address": "1 Mattar Road Singapore 387725",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 26 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 4 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32574679283198,
+      "lng": 103.881230367298
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Sultan",
+    "address": "3 Muscat Street Singapore 198833",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 29 Ramadan",
+    "childmindingServices": "Every Fri – Sat",
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM – 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30114162138115,
+      "lng": 103.860771460808
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Tasek Utara",
+    "address": "46 Bristol Road Singapore 219852",
+    "district": "South",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 26 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31300789080779,
+      "lng": 103.849141018794
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Temenggong Daeng Ibrahim",
+    "address": "30 Telok Blangah Road Singapore 098827",
+    "district": "South",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 30 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.26631495497006,
+      "lng": 103.824254422419
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Tentera Di Raja",
+    "address": "81 Clementi Road Singapore 129797",
+    "district": "West",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Zohor, 1 – 29 Ramadan",
+    "childmindingServices": "Every Fri – Sat",
+    "qiyamullail": "Last 10 nights of Ramadan, 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.29878403196681,
+      "lng": 103.769167164764
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Wak Tanjong",
+    "address": "25 Paya Lebar Road Singapore 409004",
+    "district": "East",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 27 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM – 4:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31713992999416,
+      "lng": 103.891260934228
+    }
+  },
+  {
+    "type": "Mosque",
+    "locationName": "Yusof Ishak",
+    "address": "10 Woodlands Drive 17 Singapore 737740",
+    "district": "North",
+    "rakaat": "Mon – Thu: 8 Rakaat + Witir + Tazkirah, Fri – Sun: 20 Rakaat + Witir",
+    "hasMuslimahSpace": true,
+    "buburDistribution": "After Asar, 1 – 29 Ramadan",
+    "childmindingServices": null,
+    "qiyamullail": "Last 10 nights of Ramadan, 3:30 AM",
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.4267250597963383,
+      "lng": 103.79615500892905
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "27A Balam Road",
+    "address": "27A Balam Road Singapore 371027",
+    "district": "East",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.33038182281246,
+      "lng": 103.885788977269
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "112 Bedok North Road",
+    "address": "112 Bedok North Road Singapore 460112",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.33104907831935,
+      "lng": 103.935538768198
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "702 Bedok Reservoir Road",
+    "address": "702 Bedok Reservoir Road Singapore 470702",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": "Every Fri - Sun only",
+    "coordinates": {
+      "lat": 1.33590729186163,
+      "lng": 103.922634043137
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "775 Bedok Reservoir View",
+    "address": "775 Bedok Reservoir View Singapore 470775",
+    "district": "East",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.3365778844156,
+      "lng": 103.935932127712
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "189A Boon Lay Drive",
+    "address": "189A Boon Lay Drive Singapore 641189",
+    "district": "West",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34461796002737,
+      "lng": 103.71113773766
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "813 Choa Chu Kang Avenue 7",
+    "address": "813 Choa Chu Kang Avenue 7 Singapore 680813",
+    "district": "West",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.38555516336432,
+      "lng": 103.745261508747
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "660A Choa Chu Kang Crescent",
+    "address": "660A Choa Chu Kang Crescent Singapore 680660",
+    "district": "West",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.40102235751598,
+      "lng": 103.749862447053
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "563 Choa Chu Kang Street 52",
+    "address": "563 Choa Chu Kang Street 52 Singapore 680563",
+    "district": "West",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.39402627739183,
+      "lng": 103.744121079543
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "42 Circuit Road",
+    "address": "42 Circuit Road Singapore 370042",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32684923967733,
+      "lng": 103.886293541726
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "377 Clementi Avenue 5",
+    "address": "377 Clementi Avenue 5 Singapore 120377",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31756398951141,
+      "lng": 103.767975202583
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "706 Clementi West Street 2",
+    "address": "706 Clementi West Street 2 Singapore 120706",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30676076028652,
+      "lng": 103.762363136976
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "412 Commonwealth Avenue West",
+    "address": "412 Commonwealth Avenue West Singapore 120412",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31090863920106,
+      "lng": 103.77066433167
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "1 Geylang Serai",
+    "address": "1 Geylang Serai Singapore 402001",
+    "district": "East",
+    "venueType": "Pavilion (Void deck)",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31672515005311,
+      "lng": 103.897977411392
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "117A Ho Ching Road",
+    "address": "117A Ho Ching Road Singapore 611117",
+    "district": "West",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": "18 - 27 Feb and 10 - 19 Mar only",
+    "coordinates": {
+      "lat": 1.33537441517425,
+      "lng": 103.723475577222
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "973A Hougang Street 91",
+    "address": "973A Hougang Street 91 Singapore 530973",
+    "district": "North",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": "22 Feb only",
+    "coordinates": {
+      "lat": 1.37780580313399,
+      "lng": 103.87971952242
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "432 Jurong West Street 42",
+    "address": "432 Jurong West Street 42 Singapore 640432",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.35256372860883,
+      "lng": 103.723569457588
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "530 Jurong West Street 52",
+    "address": "530 Jurong West Street 52 Singapore 640530",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34853287172023,
+      "lng": 103.715468146297
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "842 Jurong West Street 81",
+    "address": "842 Jurong West Street 81 Singapore 640842",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34447854576509,
+      "lng": 103.69347882991
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "62 Marine Drive",
+    "address": "62 Marine Drive Singapore 440075",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30337032890276,
+      "lng": 103.907439956881
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "15A Marine Terrace",
+    "address": "15A Marine Terrace Singapore 440015",
+    "district": "East",
+    "venueType": "Communal hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.30484546888462,
+      "lng": 103.914257399726
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "405B Northshore Drive",
+    "address": "405B Northshore Drive Singapore 822405",
+    "district": "North",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.41606976127308,
+      "lng": 103.901828257181
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "404 Pandan Gardens",
+    "address": "404 Pandan Gardens Singapore 600404",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.32035484260702,
+      "lng": 103.750300419587
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "555B Pasir Ris Street 51",
+    "address": "555B Pasir Ris Street 51 Singapore 512555",
+    "district": "East",
+    "venueType": "Multi purpose hall",
+    "rakaat": "Mon – Fri: 8 Rakaat + Witir, Sat – Sun: 20 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": "From 22 Feb onwards",
+    "coordinates": {
+      "lat": 1.36823508198825,
+      "lng": 103.952307804501
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "757B Pasir Ris Street 71",
+    "address": "757B Pasir Ris Street 71 Singapore 512757",
+    "district": "East",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.37755384677881,
+      "lng": 103.936383536913
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "166 Pavilion @ Teck Whye Crescent",
+    "address": "166 Pavilion @ Teck Whye Crescent Singapore 680166",
+    "district": "West",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.38294870170981,
+      "lng": 103.752865119141
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "116 Simei Street 1",
+    "address": "116 Simei Street 1 Singapore 520116",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34275276797807,
+      "lng": 103.950195189768
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "611 Tampines North Drive 1",
+    "address": "611 Tampines North Drive 1 Singapore 520611",
+    "district": "East",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.36570353911718,
+      "lng": 103.934756980672
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "286 Tampines Street 22",
+    "address": "286 Tampines Street 22 Singapore 520286",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34744378451781,
+      "lng": 103.950617728372
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "352 Tampines Street 33",
+    "address": "352 Tampines Street 33 Singapore 520352",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.35416527536518,
+      "lng": 103.962442566422
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "450 Tampines Street 42",
+    "address": "450 Tampines Street 42 Singapore 520450",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.35742126002469,
+      "lng": 103.951661274552
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "498N Tampines Street 45",
+    "address": "498N Tampines Street 45 Singapore 529097",
+    "district": "East",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.36269973012518,
+      "lng": 103.957806673373
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "827A Tampines Street 81",
+    "address": "827A Tampines Street 81 Singapore 521827",
+    "district": "East",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34712992809362,
+      "lng": 103.935805517506
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "847 Tampines Street 83",
+    "address": "847 Tampines Street 83 Singapore 520847",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.35251107659385,
+      "lng": 103.935059005284
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "937 Tampines Street 91",
+    "address": "937 Tampines Street 91 Singapore 520937",
+    "district": "East",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.34723955510922,
+      "lng": 103.941637495623
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "9 Teck Whye Lane",
+    "address": "9 Teck Whye Lane Singapore 680009",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": "18 - 27 Feb and 10 - 19 Mar only",
+    "coordinates": {
+      "lat": 1.38003501182773,
+      "lng": 103.754145535915
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "238 Tengah Garden Walk",
+    "address": "238 Tengah Garden Walk Singapore 691238",
+    "district": "West",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": true,
+    "remarks": "18 - 21 Feb, 27 - 28 Feb, 6 - 7 Mar and 13 - 14 Mar only",
+    "coordinates": {
+      "lat": 1.36185470269271,
+      "lng": 103.732243103101
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "508 West Coast Drive",
+    "address": "508 West Coast Drive Singapore 120508",
+    "district": "West",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.31165973523805,
+      "lng": 103.761761494233
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "732A Woodlands Circle",
+    "address": "732A Woodlands Circle Singapore 730732",
+    "district": "North",
+    "venueType": "Multi purpose hall",
+    "rakaat": "20 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.44334742731535,
+      "lng": 103.798291752455
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "524A Woodland Drive 14",
+    "address": "524A Woodland Drive 14 Singapore 730524",
+    "district": "North",
+    "venueType": "Link house",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.43323089424302,
+      "lng": 103.793327674611
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "895E Woodlands Drive 50",
+    "address": "895E Woodlands Drive 50 Singapore 734895",
+    "district": "North",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.4358097899325,
+      "lng": 103.792129777086
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "786E Woodlands Drive 60",
+    "address": "786E Woodlands Drive 60 Singapore 735786",
+    "district": "North",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.44708104147411,
+      "lng": 103.800563797362
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "687D Woodlands Drive 75",
+    "address": "687D Woodlands Drive 75 Singapore 733687",
+    "district": "North",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.44180897954114,
+      "lng": 103.806372444994
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "658 Woodlands Ring Road",
+    "address": "658 Woodlands Ring Road Singapore 730658",
+    "district": "North",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.43664171298146,
+      "lng": 103.79960155942
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "872 Woodlands Street 81",
+    "address": "872 Woodlands Street 81 Singapore 730872",
+    "district": "North",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.44408730145683,
+      "lng": 103.789811521995
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "327 Yishun Ring Road",
+    "address": "327 Yishun Ring Road Singapore 760327",
+    "district": "North",
+    "venueType": "Multi purpose hall",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.43345412197149,
+      "lng": 103.83891867844
+    }
+  },
+  {
+    "type": "Qaryah",
+    "locationName": "607 Yishun Street 61",
+    "address": "607 Yishun Street 61 Singapore 760606",
+    "district": "North",
+    "venueType": "Void deck",
+    "rakaat": "8 Rakaat + Witir",
+    "hasMuslimahSpace": false,
+    "buburDistribution": null,
+    "childmindingServices": null,
+    "qiyamullail": null,
+    "isTentative": false,
+    "remarks": null,
+    "coordinates": {
+      "lat": 1.42138604430426,
+      "lng": 103.835604224236
+    }
+  }
+]

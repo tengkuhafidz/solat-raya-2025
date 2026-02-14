@@ -1,23 +1,24 @@
 "use client"
 
-import { TarawihFilterPanel } from "@/components/tarawih/tarawih-filter-panel"
-import { TarawihInfoDialog } from "@/components/tarawih/tarawih-info-dialog"
-import { TarawihList } from "@/components/tarawih/tarawih-list"
+import { FilterPanel } from "@/components/filter-panel"
+import { InfoDialog } from "@/components/info-dialog"
+import { PrayerSessionList } from "@/components/prayer-session-list"
 import { SortPanel } from "@/components/sort-panel"
-import tarawihVenuesData from "@/data/tarawih-venues.json"
+import prayerSessionsData from "@/data/prayer-sessions.json"
 import { calculateDistance } from "@/lib/utils"
-import type { TarawihVenue } from "@/types/tarawih-venue"
+import type { PrayerSession } from "@/types/prayer-session"
 import { Info } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
 
-export default function TarawihPage() {
-  const [filteredVenues, setFilteredVenues] = useState<TarawihVenue[]>([])
+export default function Home() {
+  const [filteredSessions, setFilteredSessions] = useState<PrayerSession[]>([])
   const listContainerRef = useRef<HTMLDivElement>(null)
 
   // Filter states
   const [selectedDistrict, setSelectedDistrict] = useState<string>("all")
-  const [venueType, setVenueType] = useState<string>("all")
-  const [selectedRakaat, setSelectedRakaat] = useState<string>("all")
+  const [selectedSession, setSelectedSession] = useState<string>("all")
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("all")
+  const [locationType, setLocationType] = useState<string>("all")  // changed from showMosquesOnly
   const [searchTerm, setSearchTerm] = useState("")
   const [postalCode, setPostalCode] = useState("")
   const [isGeocoding, setIsGeocoding] = useState(false)
@@ -25,79 +26,121 @@ export default function TarawihPage() {
   const [isSortedByDistance, setIsSortedByDistance] = useState(false)
   const [sortedPostalCode, setSortedPostalCode] = useState("")
   const [infoOpen, setInfoOpen] = useState(false)
-  const [showMuslimahSpace, setShowMuslimahSpace] = useState(false)
-  const [showBuburDistribution, setShowBuburDistribution] = useState(false)
-  const [showChildminding, setShowChildminding] = useState(false)
-  const [showQiyamullail, setShowQiyamullail] = useState(false)
+  const [showLessCrowded, setShowLessCrowded] = useState(false)
 
-  const districts = ["all", ...new Set((tarawihVenuesData as TarawihVenue[]).map((v) => v.district))]
+  // Get unique districts for filter dropdown
+  const districts = ["all", ...new Set(prayerSessionsData.map((session) => session.district))]
+
+  // Get unique session times for filter dropdown
+  const sessionTimes = [
+    "all",
+    ...Array.from(
+      new Set(
+        prayerSessionsData.flatMap((session) => session.sessions.map((s) => s.time))
+      )
+    ).sort((a, b) => {
+      // Sort times in ascending order
+      const parseTime = (t: string) => {
+        const [h, m, period] = t.match(/(\d+):(\d+)\s*(AM|PM)/i)?.slice(1) || []
+        let hour = parseInt(h)
+        if (period?.toUpperCase() === "PM" && hour !== 12) hour += 12
+        if (period?.toUpperCase() === "AM" && hour === 12) hour = 0
+        return hour * 60 + parseInt(m)
+      }
+      return parseTime(a) - parseTime(b)
+    })
+  ]
 
   useEffect(() => {
-    let result = [...tarawihVenuesData] as TarawihVenue[]
+    let result = [...prayerSessionsData]
+    console.log("result", result)
 
+    // Apply all filters first
     if (searchTerm) {
-      result = result.filter((venue) =>
-        venue.locationName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        venue.address.toLowerCase().includes(searchTerm.toLowerCase())
+      result = result.filter((session) =>
+        session.locationName.toLowerCase().includes(searchTerm.toLowerCase())
       )
     }
 
+    // Apply district filter
     if (selectedDistrict !== "all") {
-      result = result.filter((venue) => venue.district === selectedDistrict)
+      result = result.filter((session) => session.district === selectedDistrict)
     }
 
-    switch (venueType) {
+    // Apply session time filter
+    if (selectedSession !== "all") {
+      result = result.filter((session) =>
+        session.sessions.some((s) => s.time === selectedSession)
+      )
+    }
+
+    // Apply location type filter
+    switch (locationType) {
       case "mosques":
-        result = result.filter((venue) => venue.type === "Mosque")
+        result = result.filter((session) => session.type === "Mosque")
         break
-      case "qaryah":
-        result = result.filter((venue) => venue.type === "Qaryah")
+      case "supplementary":
+        result = result.filter((session) => session.type === "Qaryah")
         break
+      // "all" case doesn't need filtering
     }
 
-    if (selectedRakaat !== "all") {
-      result = result.filter((venue) => venue.rakaat.includes(selectedRakaat))
+    // Apply language filter
+    if (selectedLanguage !== "all") {
+      result = result.filter((session) =>
+        session.sessions.some(s => s.language?.includes(selectedLanguage))
+      )
     }
-
-    if (showMuslimahSpace) {
-      result = result.filter((venue) => venue.hasMuslimahSpace)
-    }
-
-    if (showBuburDistribution) {
-      result = result.filter((venue) => !!venue.buburDistribution)
-    }
-
-    if (showChildminding) {
-      result = result.filter((venue) => !!venue.childmindingServices)
-    }
-
-    if (showQiyamullail) {
-      result = result.filter((venue) => !!venue.qiyamullail)
-    }
-
+    console.log("isSortedByDistance", isSortedByDistance)
+    // Apply sorting based on state
     if (isSortedByDistance && userCoords) {
+      console.log("sorting by distance", result)
+
       result.sort((a, b) => {
-        if (!a.coordinates && !b.coordinates) return 0
-        if (!a.coordinates) return 1
-        if (!b.coordinates) return -1
-        const distanceA = calculateDistance(userCoords.lat, userCoords.lng, a.coordinates.lat, a.coordinates.lng)
-        const distanceB = calculateDistance(userCoords.lat, userCoords.lng, b.coordinates.lat, b.coordinates.lng)
+        if (!a.coordinates || !b.coordinates) return 0
+
+        const distanceA = calculateDistance(
+          userCoords.lat,
+          userCoords.lng,
+          a.coordinates.lat,
+          a.coordinates.lng
+        )
+        const distanceB = calculateDistance(
+          userCoords.lat,
+          userCoords.lng,
+          b.coordinates.lat,
+          b.coordinates.lng
+        )
+        console.log("distanceA", a.locationName, distanceA)
+        console.log("distanceB", b.locationName, distanceB)
         return distanceA - distanceB
       })
+      console.log("sorted result", result)
     } else {
-      result.sort((a, b) => {
-        if (a.type !== b.type) return a.type === "Mosque" ? -1 : 1
-        return a.locationName.localeCompare(b.locationName)
-      })
+      console.log("sorting by location name", result)
+
+      // Default sort by location name
+      result.sort((a, b) => b.locationName.localeCompare(a.locationName))
+      console.log("sorted by location name", result)
+
     }
 
-    setFilteredVenues(result)
-  }, [selectedDistrict, venueType, selectedRakaat, searchTerm, userCoords, isSortedByDistance, showMuslimahSpace, showBuburDistribution, showChildminding, showQiyamullail])
+    // Add Less Crowded filter
+    if (showLessCrowded) {
+      result = result.filter((session) => session.isLessCrowded)
+    }
+
+    setFilteredSessions(result as PrayerSession[])
+  }, [selectedDistrict, selectedSession, selectedLanguage, locationType, searchTerm, userCoords, isSortedByDistance, showLessCrowded])
 
   const geocodePostalCode = async (postalCode: string) => {
     setIsGeocoding(true)
     try {
-      const response = await fetch(`/api/geocode?postalCode=${postalCode}`)
+      const response = await fetch(
+        `/api/geocode?postalCode=${postalCode}`,
+        {
+        }
+      )
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
@@ -134,7 +177,9 @@ export default function TarawihPage() {
 
   return (
     <main className="min-h-screen bg-white hari-raya-pattern">
+      {/* Hero section with purple gradient */}
       <div className="bg-gradient-to-b from-primary-dark to-primary">
+        {/* Masthead with darker background */}
         <div className="bg-black/30 border-b border-white/10">
           <div className="container mx-auto px-4">
             <div className="flex items-center h-[30px]">
@@ -159,17 +204,25 @@ export default function TarawihPage() {
           </div>
         </div>
 
+        {/* Text Banner - New addition */}
+        {/* <ImageBanner /> */}
+
+        {/* Hero content */}
+        {/* <div className="mt-2 mx-2">
+              <ImageBanner />
+              </div> */}
         <div className="pb-8">
           <div className="container mx-auto px-4">
+
             <header className="text-center">
               <div className="flex items-center justify-center mb-3 mt-8">
                 🕌 🌙 🇸🇬
               </div>
               <h1 className="text-4xl md:text-4xl font-bold text-white mb-2">
-                Tarawih Places 2026
+                Solat Raya Aidiladha 2025
               </h1>
               <p className="text-white/80 max-w-md mx-auto mb-6">
-                Find Tarawih prayer venues across Singapore
+                Find prayer sessions across various locations
               </p>
 
               <div className="mt-8">
@@ -188,48 +241,46 @@ export default function TarawihPage() {
       </div>
 
       <div className="container mx-auto px-4 py-8">
-        <TarawihFilterPanel
+        <FilterPanel
           districts={districts}
           selectedDistrict={selectedDistrict}
           setSelectedDistrict={setSelectedDistrict}
-          venueType={venueType}
-          setVenueType={setVenueType}
-          selectedRakaat={selectedRakaat}
-          setSelectedRakaat={setSelectedRakaat}
+          sessionTimes={sessionTimes}
+          selectedSession={selectedSession}
+          setSelectedSession={setSelectedSession}
+          selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
+          locationType={locationType}
+          setLocationType={setLocationType}
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
-          showMuslimahSpace={showMuslimahSpace}
-          setShowMuslimahSpace={setShowMuslimahSpace}
-          showBuburDistribution={showBuburDistribution}
-          setShowBuburDistribution={setShowBuburDistribution}
-          showChildminding={showChildminding}
-          setShowChildminding={setShowChildminding}
-          showQiyamullail={showQiyamullail}
-          setShowQiyamullail={setShowQiyamullail}
+          showLessCrowded={showLessCrowded}
+          setShowLessCrowded={setShowLessCrowded}
         />
 
         <div ref={listContainerRef}>
           <div className="mt-8 mb-4 text-sm text-gray-500 flex items-center justify-between">
             <div className="flex items-center">
               <span className="inline-block w-2 h-2 rounded-full bg-primary mr-2"></span>
-              {filteredVenues.length} venues
+              {filteredSessions.length} locations
             </div>
             <div className="text-xs text-gray-400">
-              Source: <a href="https://www.muis.gov.sg/community/ramadan-2026/"
+              Source: <a href="https://www.instagram.com/p/DKRYAejuyTH/?igsh=bzExZjVtczNybHl1"
                 className="underline hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
-              >muis.gov.sg</a>
+              >muis.sg</a> · 31/5/2025
             </div>
           </div>
 
-          <TarawihList
-            venues={filteredVenues}
+          <PrayerSessionList
+            sessions={filteredSessions}
             scrollRef={listContainerRef}
             userCoords={userCoords}
           />
         </div>
 
+        {/* Add subtle Meem plug */}
         <div className="text-center mt-12 pt-8 border-t text-sm text-gray-400">
           <p>
             Built with 💜 by the team at{" "}
@@ -260,7 +311,7 @@ export default function TarawihPage() {
         </div>
       </div>
 
-      <TarawihInfoDialog open={infoOpen} onOpenChange={setInfoOpen} />
+      <InfoDialog open={infoOpen} onOpenChange={setInfoOpen} />
     </main>
   )
 }
