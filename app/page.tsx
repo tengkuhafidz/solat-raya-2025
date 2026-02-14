@@ -166,7 +166,7 @@ export default function TarawihPage() {
                 🕌 🌙 🇸🇬
               </div>
               <h1 className="text-4xl md:text-4xl font-bold text-white mb-2">
-                Tarawih Places 2026
+                Tarawih 2026
               </h1>
               <p className="text-white/80 max-w-md mx-auto mb-6">
                 Find Tarawih prayer venues across Singapore

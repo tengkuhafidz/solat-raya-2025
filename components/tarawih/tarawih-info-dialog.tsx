@@ -22,7 +22,7 @@ export function TarawihInfoDialog({ open, onOpenChange }: TarawihInfoDialogProps
         </DialogHeader>
         <div className="space-y-4 text-sm px-1">
           <section>
-            <h3 className="font-medium mb-2">Tarawih Places 2026 Directory</h3>
+            <h3 className="font-medium mb-2">Tarawih 2026 Directory</h3>
             <p className="text-gray-600">
               This is a mini project by Meem to help Muslims in Singapore find suitable Tarawih prayer venues during Ramadan.
               Data is sourced from <a href="https://www.muis.gov.sg/community/ramadan-2026/" className="text-primary hover:text-primary-dark underline" target="_blank" rel="noopener noreferrer">muis.gov.sg <ExternalLink className="inline w-3 h-3" /></a>.
