@@ -8,30 +8,104 @@ import tarawihVenuesData from "@/data/tarawih-venues.json"
 import { calculateDistance } from "@/lib/utils"
 import type { TarawihVenue } from "@/types/tarawih-venue"
 import { Info } from "lucide-react"
-import { useEffect, useRef, useState } from "react"
+import { useSearchParams, useRouter } from "next/navigation"
+import { Suspense, useCallback, useEffect, useRef, useState } from "react"
 
-export default function TarawihPage() {
+function TarawihPageContent() {
+  const searchParams = useSearchParams()
+  const router = useRouter()
+
   const [filteredVenues, setFilteredVenues] = useState<TarawihVenue[]>([])
   const listContainerRef = useRef<HTMLDivElement>(null)
 
-  // Filter states
-  const [selectedDistrict, setSelectedDistrict] = useState<string>("all")
-  const [venueType, setVenueType] = useState<string>("all")
-  const [selectedRakaat, setSelectedRakaat] = useState<string>("all")
-  const [searchTerm, setSearchTerm] = useState("")
-  const [postalCode, setPostalCode] = useState("")
+  // Filter states — initialized from URL params
+  const [selectedDistrict, setSelectedDistrict] = useState<string>(searchParams.get("district") || "all")
+  const [venueType, setVenueType] = useState<string>(searchParams.get("type") || "all")
+  const [selectedRakaat, setSelectedRakaat] = useState<string>(searchParams.get("rakaat") || "all")
+  const [searchTerm, setSearchTerm] = useState(searchParams.get("q") || "")
+  const [postalCode, setPostalCode] = useState(searchParams.get("postal") || "")
   const [isGeocoding, setIsGeocoding] = useState(false)
   const [userCoords, setUserCoords] = useState<{ lat: number, lng: number } | null>(null)
   const [isSortedByDistance, setIsSortedByDistance] = useState(false)
   const [sortedPostalCode, setSortedPostalCode] = useState("")
   const [infoOpen, setInfoOpen] = useState(false)
-  const [showMuslimahSpace, setShowMuslimahSpace] = useState(false)
-  const [showBuburDistribution, setShowBuburDistribution] = useState(false)
-  const [showChildminding, setShowChildminding] = useState(false)
-  const [showQiyamullail, setShowQiyamullail] = useState(false)
+  const [showMuslimahSpace, setShowMuslimahSpace] = useState(searchParams.get("muslimah") === "1")
+  const [showBuburDistribution, setShowBuburDistribution] = useState(searchParams.get("bubur") === "1")
+  const [showChildminding, setShowChildminding] = useState(searchParams.get("childminding") === "1")
+  const [showQiyamullail, setShowQiyamullail] = useState(searchParams.get("qiyamullail") === "1")
+
+  // Track whether initial mount sync is done to avoid writing URL before postal geocoding completes
+  const isInitialMount = useRef(true)
 
   const districts = ["all", ...new Set((tarawihVenuesData as TarawihVenue[]).map((v) => v.district))]
 
+  // Sync state → URL (skip on initial mount)
+  useEffect(() => {
+    if (isInitialMount.current) return
+
+    const params = new URLSearchParams()
+    if (searchTerm) params.set("q", searchTerm)
+    if (selectedDistrict !== "all") params.set("district", selectedDistrict)
+    if (venueType !== "all") params.set("type", venueType)
+    if (selectedRakaat !== "all") params.set("rakaat", selectedRakaat)
+    if (showMuslimahSpace) params.set("muslimah", "1")
+    if (showBuburDistribution) params.set("bubur", "1")
+    if (showChildminding) params.set("childminding", "1")
+    if (showQiyamullail) params.set("qiyamullail", "1")
+    if (sortedPostalCode) params.set("postal", sortedPostalCode)
+
+    const qs = params.toString()
+    router.replace(qs ? `?${qs}` : "?", { scroll: false })
+  }, [searchTerm, selectedDistrict, venueType, selectedRakaat, showMuslimahSpace, showBuburDistribution, showChildminding, showQiyamullail, sortedPostalCode, router])
+
+  // Geocode helper
+  const geocodePostalCode = useCallback(async (code: string) => {
+    setIsGeocoding(true)
+    try {
+      const response = await fetch(`/api/geocode?postalCode=${code}`)
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+
+      const data = await response.json()
+
+      if (data.results && data.results.length > 0) {
+        const { LATITUDE, LONGITUDE } = data.results[0]
+        setUserCoords({
+          lat: parseFloat(LATITUDE),
+          lng: parseFloat(LONGITUDE)
+        })
+        return true
+      }
+      throw new Error('No results found')
+    } catch (error) {
+      console.error('Geocoding error:', error)
+      return false
+    } finally {
+      setIsGeocoding(false)
+    }
+  }, [])
+
+  // On mount: restore postal code sort from URL
+  useEffect(() => {
+    const postalParam = searchParams.get("postal")
+    if (postalParam) {
+      geocodePostalCode(postalParam).then((success) => {
+        if (success) {
+          setIsSortedByDistance(true)
+          setSortedPostalCode(postalParam)
+        }
+        isInitialMount.current = false
+      })
+    } else {
+      isInitialMount.current = false
+    }
+    // Only run on mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // Filter + sort logic
   useEffect(() => {
     let result = [...tarawihVenuesData] as TarawihVenue[]
 
@@ -93,34 +167,6 @@ export default function TarawihPage() {
 
     setFilteredVenues(result)
   }, [selectedDistrict, venueType, selectedRakaat, searchTerm, userCoords, isSortedByDistance, showMuslimahSpace, showBuburDistribution, showChildminding, showQiyamullail])
-
-  const geocodePostalCode = async (postalCode: string) => {
-    setIsGeocoding(true)
-    try {
-      const response = await fetch(`/api/geocode?postalCode=${postalCode}`)
-
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`)
-      }
-
-      const data = await response.json()
-
-      if (data.results && data.results.length > 0) {
-        const { LATITUDE, LONGITUDE } = data.results[0]
-        setUserCoords({
-          lat: parseFloat(LATITUDE),
-          lng: parseFloat(LONGITUDE)
-        })
-        return true
-      }
-      throw new Error('No results found')
-    } catch (error) {
-      console.error('Geocoding error:', error)
-      return false
-    } finally {
-      setIsGeocoding(false)
-    }
-  }
 
   const handleSortByDistance = async () => {
     if (!postalCode) return
@@ -271,5 +317,13 @@ export default function TarawihPage() {
 
       <TarawihInfoDialog open={infoOpen} onOpenChange={setInfoOpen} />
     </main>
+  )
+}
+
+export default function TarawihPage() {
+  return (
+    <Suspense>
+      <TarawihPageContent />
+    </Suspense>
   )
 }
