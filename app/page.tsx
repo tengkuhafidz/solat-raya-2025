@@ -314,7 +314,7 @@ export default function Home() {
                 🕌 🌙 🇸🇬
               </div>
               <h1 className="text-4xl md:text-4xl font-bold text-white mb-2">
-                Solat Raya Aidiladha 2026
+                Solat Raya Aidilfitri 2026
               </h1>
               <p className="text-white/80 max-w-md mx-auto mb-6">
                 Find prayer sessions across various locations
