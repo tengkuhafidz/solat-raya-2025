@@ -863,7 +863,7 @@
   },
   {
     "district": "North",
-    "locationName": "Darul Makmur (Temporary Site)^",
+    "locationName": "Darul Makmur",
     "sessions": [
       {
         "time": "7:20am",
@@ -875,11 +875,11 @@
       }
     ],
     "hasMuslimahPrayerSpace": true,
-    "remarks": "^Temporary Site @ Former North View Secondary School (768680)",
+    "remarks": "",
     "isLessCrowded": false,
     "coordinates": {
-      "lat": 1.43686614981845,
-      "lng": 103.83434033765
+      "lat": 1.43687216585825,
+      "lng": 103.834461528205
     },
     "type": "Mosque"
   },

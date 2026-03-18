@@ -8,25 +8,43 @@ import prayerSessionsData from "@/data/prayer-sessions.json"
 import { calculateDistance } from "@/lib/utils"
 import type { PrayerSession } from "@/types/prayer-session"
 import { Info } from "lucide-react"
-import { useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
+
+function getInitialParams() {
+  if (typeof window === "undefined") return {}
+  const params = new URLSearchParams(window.location.search)
+  return {
+    district: params.get("district") || "all",
+    session: params.get("session") || "all",
+    language: params.get("language") || "all",
+    type: params.get("type") || "all",
+    search: params.get("search") || "",
+    postal: params.get("postal") || "",
+    crowded: params.get("crowded") === "1",
+  }
+}
 
 export default function Home() {
   const [filteredSessions, setFilteredSessions] = useState<PrayerSession[]>([])
   const listContainerRef = useRef<HTMLDivElement>(null)
+  const initialParams = useRef(getInitialParams())
 
-  // Filter states
-  const [selectedDistrict, setSelectedDistrict] = useState<string>("all")
-  const [selectedSession, setSelectedSession] = useState<string>("all")
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("all")
-  const [locationType, setLocationType] = useState<string>("all")  // changed from showMosquesOnly
-  const [searchTerm, setSearchTerm] = useState("")
-  const [postalCode, setPostalCode] = useState("")
+  // Filter states — initialized from URL params
+  const [selectedDistrict, setSelectedDistrict] = useState<string>(initialParams.current.district || "all")
+  const [selectedSession, setSelectedSession] = useState<string>(initialParams.current.session || "all")
+  const [selectedLanguage, setSelectedLanguage] = useState<string>(initialParams.current.language || "all")
+  const [locationType, setLocationType] = useState<string>(initialParams.current.type || "all")
+  const [searchTerm, setSearchTerm] = useState(initialParams.current.search || "")
+  const [postalCode, setPostalCode] = useState(initialParams.current.postal || "")
   const [isGeocoding, setIsGeocoding] = useState(false)
   const [userCoords, setUserCoords] = useState<{ lat: number, lng: number } | null>(null)
   const [isSortedByDistance, setIsSortedByDistance] = useState(false)
   const [sortedPostalCode, setSortedPostalCode] = useState("")
+  const [isGeolocating, setIsGeolocating] = useState(false)
+  const [geoError, setGeoError] = useState("")
+  const [sortedByGeolocation, setSortedByGeolocation] = useState(false)
   const [infoOpen, setInfoOpen] = useState(false)
-  const [showLessCrowded, setShowLessCrowded] = useState(false)
+  const [showLessCrowded, setShowLessCrowded] = useState(initialParams.current.crowded || false)
 
   // Get unique districts for filter dropdown
   const districts = ["all", ...new Set(prayerSessionsData.map((session) => session.district))]
@@ -50,6 +68,26 @@ export default function Home() {
       return parseTime(a) - parseTime(b)
     })
   ]
+
+  // Sync filter state to URL query params
+  const updateQueryParams = useCallback(() => {
+    const params = new URLSearchParams()
+    if (selectedDistrict !== "all") params.set("district", selectedDistrict)
+    if (selectedSession !== "all") params.set("session", selectedSession)
+    if (selectedLanguage !== "all") params.set("language", selectedLanguage)
+    if (locationType !== "all") params.set("type", locationType)
+    if (searchTerm) params.set("search", searchTerm)
+    if (sortedPostalCode) params.set("postal", sortedPostalCode)
+    if (showLessCrowded) params.set("crowded", "1")
+
+    const qs = params.toString()
+    const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname
+    window.history.replaceState(null, "", newUrl)
+  }, [selectedDistrict, selectedSession, selectedLanguage, locationType, searchTerm, sortedPostalCode, showLessCrowded])
+
+  useEffect(() => {
+    updateQueryParams()
+  }, [updateQueryParams])
 
   useEffect(() => {
     let result = [...prayerSessionsData]
@@ -165,6 +203,23 @@ export default function Home() {
     }
   }
 
+  // Auto-trigger postal code sort if postal param is present on mount
+  const hasAutoSorted = useRef(false)
+  useEffect(() => {
+    if (hasAutoSorted.current) return
+    const postal = initialParams.current.postal
+    if (postal && postal.length === 6) {
+      hasAutoSorted.current = true
+      geocodePostalCode(postal).then((success) => {
+        if (success) {
+          setIsSortedByDistance(true)
+          setSortedPostalCode(postal)
+        }
+      })
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   const handleSortByDistance = async () => {
     if (!postalCode) return
 
@@ -173,6 +228,46 @@ export default function Home() {
 
     setIsSortedByDistance(true)
     setSortedPostalCode(postalCode)
+    setSortedByGeolocation(false)
+    setGeoError("")
+  }
+
+  const handleUseMyLocation = () => {
+    if (!navigator.geolocation) {
+      setGeoError("Geolocation is not supported by your browser")
+      return
+    }
+
+    setIsGeolocating(true)
+    setGeoError("")
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setUserCoords({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        })
+        setIsSortedByDistance(true)
+        setSortedByGeolocation(true)
+        setSortedPostalCode("")
+        setIsGeolocating(false)
+      },
+      (error) => {
+        let message = "Unable to get your location"
+        if (error.code === error.PERMISSION_DENIED) {
+          message = "Location permission denied. Please use postal code instead."
+        } else if (error.code === error.TIMEOUT) {
+          message = "Location request timed out. Please try again or use postal code."
+        }
+        setGeoError(message)
+        setIsGeolocating(false)
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 10000,
+        maximumAge: 300000,
+      }
+    )
   }
 
   return (
@@ -230,9 +325,13 @@ export default function Home() {
                   postalCode={postalCode}
                   setPostalCode={setPostalCode}
                   onSortByDistance={handleSortByDistance}
+                  onUseMyLocation={handleUseMyLocation}
                   isLoading={isGeocoding}
+                  isGeolocating={isGeolocating}
                   isSorted={isSortedByDistance}
                   sortedPostalCode={sortedPostalCode}
+                  sortedByGeolocation={sortedByGeolocation}
+                  geoError={geoError}
                 />
               </div>
             </header>
