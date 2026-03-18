@@ -7,7 +7,7 @@ import { SortPanel } from "@/components/sort-panel"
 import prayerSessionsData from "@/data/prayer-sessions.json"
 import { calculateDistance } from "@/lib/utils"
 import type { PrayerSession } from "@/types/prayer-session"
-import { Info } from "lucide-react"
+import { Info, Map, ExternalLink } from "lucide-react"
 import { useCallback, useEffect, useRef, useState } from "react"
 
 function getInitialParams() {
@@ -377,6 +377,20 @@ export default function Home() {
             scrollRef={listContainerRef}
             userCoords={userCoords}
           />
+        </div>
+
+        {/* Map view callout */}
+        <div className="text-center mt-10">
+          <a
+            href="https://mapiry.com/m/solat-raya-2026"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/5 border border-primary/15 text-sm text-primary hover:bg-primary/10 transition-colors"
+          >
+            <Map className="w-4 h-4" />
+            Prefer a rich map view?
+            <ExternalLink className="w-3.5 h-3.5 opacity-60" />
+          </a>
         </div>
 
         {/* Add subtle Meem plug */}
