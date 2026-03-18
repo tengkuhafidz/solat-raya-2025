@@ -219,7 +219,7 @@ export default function Home() {
                 🕌 🌙 🇸🇬
               </div>
               <h1 className="text-4xl md:text-4xl font-bold text-white mb-2">
-                Solat Raya Aidiladha 2025
+                Solat Raya Aidiladha 2026
               </h1>
               <p className="text-white/80 max-w-md mx-auto mb-6">
                 Find prayer sessions across various locations
@@ -265,11 +265,11 @@ export default function Home() {
               {filteredSessions.length} locations
             </div>
             <div className="text-xs text-gray-400">
-              Source: <a href="https://www.instagram.com/p/DKRYAejuyTH/?igsh=bzExZjVtczNybHl1"
+              Source: <a href="https://www.muis.gov.sg/community/mosque/"
                 className="underline hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
-              >muis.sg</a> · 31/5/2025
+              >muis.sg</a> · 2026
             </div>
           </div>
 

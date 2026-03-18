@@ -4,8 +4,8 @@
     "locationName": "Abdul Aleem Siddique",
     "sessions": [
       {
-        "time": "7:20am",
-        "language": "English"
+        "time": "7:30am",
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -60,6 +60,10 @@
       {
         "time": "7:20am",
         "language": "Malay"
+      },
+      {
+        "time": "8:15am",
+        "language": "English"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -112,7 +116,7 @@
     "locationName": "Al-Abrar",
     "sessions": [
       {
-        "time": "8:00am",
+        "time": "8:30am",
         "language": "Arabic"
       }
     ],
@@ -130,7 +134,7 @@
     "locationName": "Al-Amin",
     "sessions": [
       {
-        "time": "7:20am",
+        "time": "7:30am",
         "language": "Malay"
       }
     ],
@@ -167,7 +171,7 @@
     "sessions": [
       {
         "time": "7:20am",
-        "language": "Arabic"
+        "language": "Tamil"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -188,7 +192,7 @@
         "language": "Malay"
       }
     ],
-    "hasMuslimahPrayerSpace": true,
+    "hasMuslimahPrayerSpace": false,
     "remarks": null,
     "isLessCrowded": false,
     "coordinates": {
@@ -202,7 +206,7 @@
     "locationName": "Hajjah Fatimah",
     "sessions": [
       {
-        "time": "8:00am",
+        "time": "8:15am",
         "language": "Malay"
       }
     ],
@@ -220,7 +224,7 @@
     "locationName": "Jamae Chulia",
     "sessions": [
       {
-        "time": "8:15am",
+        "time": "8:45am",
         "language": "Tamil"
       }
     ],
@@ -238,7 +242,7 @@
     "locationName": "Jamek Queenstown",
     "sessions": [
       {
-        "time": "8:15am",
+        "time": "8:45am",
         "language": "English"
       }
     ],
@@ -275,7 +279,7 @@
     "sessions": [
       {
         "time": "8:15am",
-        "language": "English"
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": false,
@@ -292,7 +296,11 @@
     "locationName": "Moulana Mohd Ali",
     "sessions": [
       {
-        "time": "8:15am",
+        "time": "7:45am",
+        "language": "Arabic"
+      },
+      {
+        "time": "8:45am",
         "language": "Arabic"
       }
     ],
@@ -310,7 +318,7 @@
     "locationName": "Mujahidin",
     "sessions": [
       {
-        "time": "7:20am",
+        "time": "8:00am",
         "language": "Malay"
       }
     ],
@@ -346,7 +354,7 @@
     "locationName": "Tasek Utara",
     "sessions": [
       {
-        "time": "8:15am",
+        "time": "8:00am",
         "language": "Malay"
       }
     ],
@@ -382,7 +390,7 @@
     "locationName": "Al-Huda",
     "sessions": [
       {
-        "time": "8:00am",
+        "time": "8:15am",
         "language": "Malay"
       }
     ],
@@ -441,7 +449,7 @@
       },
       {
         "time": "8:15am",
-        "language": "Malay"
+        "language": "English"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -506,7 +514,7 @@
         "language": "Malay"
       },
       {
-        "time": "8:15am",
+        "time": "8:30am",
         "language": "Malay"
       }
     ],
@@ -528,11 +536,11 @@
         "language": "Malay"
       },
       {
-        "time": "8:15am",
+        "time": "8:30am",
         "language": "English"
       }
     ],
-    "hasMuslimahPrayerSpace": false,
+    "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
     "coordinates": {
@@ -551,7 +559,7 @@
       },
       {
         "time": "8:15am",
-        "language": "Malay"
+        "language": "English"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -612,16 +620,16 @@
     "locationName": "Darul Ghufran",
     "sessions": [
       {
-        "time": "7:20am",
+        "time": "7:30am",
         "language": "Malay"
       },
       {
-        "time": "8:15am",
+        "time": "8:45am",
         "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
-    "remarks": "Session at 7:20am requires booking @ book.masjids.sg",
+    "remarks": "Session at 7:30am requires booking @ book.masjids.sg",
     "isLessCrowded": false,
     "coordinates": {
       "lat": 1.35528065111508,
@@ -660,7 +668,7 @@
         "language": "Malay"
       },
       {
-        "time": "8:15am",
+        "time": "8:30am",
         "language": "English"
       }
     ],
@@ -679,10 +687,14 @@
     "sessions": [
       {
         "time": "7:20am",
-        "language": "Malay"
+        "language": "English"
       },
       {
         "time": "8:15am",
+        "language": "Malay"
+      },
+      {
+        "time": "9:15am",
         "language": "Malay"
       }
     ],
@@ -723,11 +735,11 @@
     "sessions": [
       {
         "time": "7:20am",
-        "language": "Malay"
+        "language": "English"
       },
       {
         "time": "8:15am",
-        "language": "English"
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -859,7 +871,7 @@
       },
       {
         "time": "8:15am",
-        "language": "English"
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -881,7 +893,7 @@
       },
       {
         "time": "8:15am",
-        "language": "English"
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -903,7 +915,7 @@
       },
       {
         "time": "8:15am",
-        "language": "English"
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -925,7 +937,7 @@
       },
       {
         "time": "8:15am",
-        "language": "English"
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -964,11 +976,11 @@
     "locationName": "Al-Falah",
     "sessions": [
       {
-        "time": "8:00am",
+        "time": "7:20am",
         "language": "English"
       },
       {
-        "time": "9:15am",
+        "time": "8:15am",
         "language": "English"
       }
     ],
@@ -1054,13 +1066,9 @@
       {
         "time": "7:20am",
         "language": "Malay"
-      },
-      {
-        "time": "8:15am",
-        "language": "English"
       }
     ],
-    "hasMuslimahPrayerSpace": false,
+    "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
     "coordinates": {
@@ -1082,7 +1090,7 @@
         "language": "English"
       }
     ],
-    "hasMuslimahPrayerSpace": false,
+    "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
     "coordinates": {
@@ -1163,11 +1171,11 @@
     "sessions": [
       {
         "time": "7:20am",
-        "language": "English"
+        "language": "Malay"
       },
       {
         "time": "8:15am",
-        "language": "Malay"
+        "language": "English"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1314,7 +1322,7 @@
         "language": "Bengali"
       }
     ],
-    "hasMuslimahPrayerSpace": false,
+    "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
     "coordinates": {
@@ -1366,7 +1374,7 @@
         "language": "Arabic"
       }
     ],
-    "hasMuslimahPrayerSpace": false,
+    "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
     "coordinates": {
@@ -1384,11 +1392,11 @@
         "language": "English"
       },
       {
-        "time": "8:15am",
+        "time": "8:45am",
         "language": "Bengali"
       },
       {
-        "time": "9:15am",
+        "time": "9:45am",
         "language": "Tamil"
       }
     ],
@@ -1459,7 +1467,7 @@
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "English"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1472,12 +1480,30 @@
     "type": "Qaryah"
   },
   {
-    "district": "East",
-    "locationName": "112 Bedok North Avenue 3 Singapore 460112",
+    "district": "West",
+    "locationName": "448 Bukit Batok West Avenue 8 Singapore 652448",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.35314900034194,
+      "lng": 103.740846555722
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "112 Bedok North Road Singapore 460112",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1495,7 +1521,7 @@
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1509,11 +1535,11 @@
   },
   {
     "district": "East",
-    "locationName": "775A Bedok Reservoir View Singapore 471775",
+    "locationName": "775 Bedok Reservoir View Singapore 470775",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1526,360 +1552,12 @@
     "type": "Qaryah"
   },
   {
-    "district": "East",
-    "locationName": "42A Circuit Road Singapore 371042",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.32684923967733,
-      "lng": 103.886293541726
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "15A Marine Terrace Singapore 441015",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.30484546888462,
-      "lng": 103.914257399726
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "101 Pasir Ris Street 12 Singapore 510101",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.36705021516612,
-      "lng": 103.958181857039
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "757B Pasir Ris Street 71 Singapore 512757",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.37755384677881,
-      "lng": 103.936383536913
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "116 Simei Street 1 Singapore 520116",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.34275276797807,
-      "lng": 103.950195189768
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "611 Tampines North Drive 1 Singapore 520611",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.36570353911718,
-      "lng": 103.934756980672
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "286 Tampines Street 22 Singapore 520286",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.34744378451781,
-      "lng": 103.950617728372
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "352 Tampines Street 33 Singapore 520352",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": null,
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "450 Tampines Street 42 Singapore 520450",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.35742126002469,
-      "lng": 103.951661274552
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "498N Tampines Street 45 Singapore 52097",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": null,
-    "type": "Qaryah"
-  },
-  {
-    "district": "East",
-    "locationName": "827A Tampines Street 81 Singapore 521827",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.34712992809362,
-      "lng": 103.935805517506
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "23C Lorong Buang Kok Singapore 547709",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": null,
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "732A Woodlands Circle Singapore 730732",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": null,
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "524A Woodlands Drive 14 Singapore 731524",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.43323089424302,
-      "lng": 103.793327674611
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "895E Woodlands Drive 50 Singapore 734895",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.4358097899325,
-      "lng": 103.792129777086
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "786E Woodlands Drive 60 Singapore 735786",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.44708104147411,
-      "lng": 103.800563797362
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "3 Woodlands Drive 63 Singapore 737890",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.43856288054116,
-      "lng": 103.793634541557
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "178 Woodlands Street 13 Singapore 730178",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.43464080601813,
-      "lng": 103.777670022616
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "327 Yishun Ring Road Singapore 760327",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.43345412197149,
-      "lng": 103.83891867844
-    },
-    "type": "Qaryah"
-  },
-  {
-    "district": "North",
-    "locationName": "607 Yishun Street 61 Singapore 760607",
-    "sessions": [
-      {
-        "time": "8:30am",
-        "language": null
-      }
-    ],
-    "hasMuslimahPrayerSpace": true,
-    "remarks": null,
-    "isLessCrowded": false,
-    "coordinates": {
-      "lat": 1.42138604430426,
-      "lng": 103.835604224236
-    },
-    "type": "Qaryah"
-  },
-  {
     "district": "West",
     "locationName": "189A Boon Lay Drive Singapore 641189",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1897,7 +1575,7 @@
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1911,17 +1589,20 @@
   },
   {
     "district": "West",
-    "locationName": "448D Bukit Batok West Avenue 9 Singapore 654448",
+    "locationName": "449 Choa Chu Kang Avenue 4 Singapore 680449",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 1.3791714217924,
+      "lng": 103.736251145733
+    },
     "type": "Qaryah"
   },
   {
@@ -1930,7 +1611,7 @@
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1943,33 +1624,39 @@
     "type": "Qaryah"
   },
   {
-    "district": "West",
-    "locationName": "660 Choa Chu Kang Crescent Singapore 680660",
+    "district": "North",
+    "locationName": "660A Choa Chu Kang Crescent Singapore 680660",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 1.40115928939782,
+      "lng": 103.749807645909
+    },
     "type": "Qaryah"
   },
   {
-    "district": "West",
-    "locationName": "669A Choa Chu Kang Crescent Singapore 680669",
+    "district": "North",
+    "locationName": "669 Choa Chu Kang Cresent Singapore 681669",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 1.40224929237463,
+      "lng": 103.748274386805
+    },
     "type": "Qaryah"
   },
   {
@@ -1978,7 +1665,7 @@
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -1991,18 +1678,93 @@
     "type": "Qaryah"
   },
   {
-    "district": "West",
-    "locationName": "707 Clementi West Street 2 Singapore 120707",
+    "district": "East",
+    "locationName": "42 Circuit Road Singapore 370042",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "English"
       }
     ],
     "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 1.32684923967733,
+      "lng": 103.886293541726
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "West",
+    "locationName": "377 Clementi Avenue 5 Singapore 120377",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.31756398951141,
+      "lng": 103.767975202583
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "West",
+    "locationName": "706 Clementi West Street 2 Singapore 120706",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.30676076028652,
+      "lng": 103.762363136976
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "South",
+    "locationName": "412 Commonwealth Avenue West Singapore 120412",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.31090863920106,
+      "lng": 103.77066433167
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "West",
+    "locationName": "117A Ho Ching Road Singapore 611117",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.33537441517425,
+      "lng": 103.723475577222
+    },
     "type": "Qaryah"
   },
   {
@@ -2011,7 +1773,7 @@
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -2025,11 +1787,83 @@
   },
   {
     "district": "West",
+    "locationName": "842 Jurong West Street 81 Singapore 640842",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.34447854576509,
+      "lng": 103.69347882991
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "62 Marine Drive Singapore 440075",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.30337032890276,
+      "lng": 103.907439956881
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "15A Marine Terrace Singapore 440015",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.30484546888462,
+      "lng": 103.914257399726
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "405 Northshore Walk Singapore 820405",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.41574430868261,
+      "lng": 103.901048283157
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "West",
     "locationName": "404 Pandan Gardens Singapore 600404",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -2042,18 +1876,291 @@
     "type": "Qaryah"
   },
   {
-    "district": "West",
-    "locationName": "165A Teck Whye Crescent Singapore 681165",
+    "district": "East",
+    "locationName": "120 Pasir Ris Central Singapore 519640",
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "English"
       }
     ],
     "hasMuslimahPrayerSpace": true,
     "remarks": null,
     "isLessCrowded": false,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 1.37444845881068,
+      "lng": 103.951822500564
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "101 Pasir Ris Street 12 Singapore 510101",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.36705021516612,
+      "lng": 103.958181857039
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "757B Pasir Ris Street 71 Singapore 512757",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.37755384677881,
+      "lng": 103.936383536913
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "166 Pavilion @ Teck Whye Crescent Singapore 680166",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.38294870170981,
+      "lng": 103.752865119141
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "116 Simei Street 1 Singapore 520116",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.34275276797807,
+      "lng": 103.950195189768
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "807 Tampines Avenue 4 Singapore 520807",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.34586624483884,
+      "lng": 103.936093443277
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "450 Tampines Street 42 Singapore 529450",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.36839350178103,
+      "lng": 103.941897713077
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "611 Tampines North Drive 1 Singapore 520611",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.36570353911718,
+      "lng": 103.934756980672
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "286 Tampines Street 22 Singapore 520286",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.34744378451781,
+      "lng": 103.950617728372
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "352 Tampines Street 33 Singapore 520352",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.35416527536518,
+      "lng": 103.962442566422
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "498N Tampines Street 45 Singapore 529097",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.36269973012518,
+      "lng": 103.957806673373
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "827A Tampines Street 81 Singapore 521827",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.34712992809362,
+      "lng": 103.935805517506
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "847 Tampines Street 83 Singapore 520847",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.35251107659385,
+      "lng": 103.935059005284
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "East",
+    "locationName": "937 Tampines Avenue 5 Singapore 520937",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.34723955510922,
+      "lng": 103.941637495623
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "9 Teck Whye Lane Singapore 680009",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.38003501182773,
+      "lng": 103.754145535915
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "West",
+    "locationName": "238 Tengah Garden Walk Singapore 691238",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.36185470269271,
+      "lng": 103.732243103101
+    },
     "type": "Qaryah"
   },
   {
@@ -2062,7 +2169,7 @@
     "sessions": [
       {
         "time": "8:30am",
-        "language": null
+        "language": "Malay"
       }
     ],
     "hasMuslimahPrayerSpace": true,
@@ -2071,6 +2178,150 @@
     "coordinates": {
       "lat": 1.31165973523805,
       "lng": 103.761761494233
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "732A Woodlands Circle Singapore 730732",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.44334742731535,
+      "lng": 103.798291752455
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "524A Woodland Drive 14 Singapore 730524",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.43264768513006,
+      "lng": 103.79367954254
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "895E Woodlands Drive 50 Singapore 734895",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.4358097899325,
+      "lng": 103.792129777086
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "786E Woodlands Drive 60 Singapore 735786",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.44708104147411,
+      "lng": 103.800563797362
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "3 Woodlands Drive 63 Singapore 737890",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.43856288054116,
+      "lng": 103.793634541557
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "172 Woodlands Street 13 Singapore 730172",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "English"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.43464080601813,
+      "lng": 103.777670022616
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "327 Yishun Ring Road Singapore 760327",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.43345412197149,
+      "lng": 103.83891867844
+    },
+    "type": "Qaryah"
+  },
+  {
+    "district": "North",
+    "locationName": "606 Yishun Street 61 Singapore 760606",
+    "sessions": [
+      {
+        "time": "8:30am",
+        "language": "Malay"
+      }
+    ],
+    "hasMuslimahPrayerSpace": true,
+    "remarks": null,
+    "isLessCrowded": false,
+    "coordinates": {
+      "lat": 1.42138604430426,
+      "lng": 103.835604224236
     },
     "type": "Qaryah"
   }

@@ -8,11 +8,11 @@ import { GoogleAnalytics } from "@/components/google-analytics"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Solat Raya Aidiladha 2025 Singapore | Prayer Locations & Timings',
+  title: 'Solat Raya Aidiladha 2026 Singapore | Prayer Locations & Timings',
   description: 'Find Hari Raya Aidiladha prayer locations across Singapore mosques. View prayer times, khutbah languages, and directions to all mosques and supplementary prayer spaces.',
   keywords: 'solat raya, hari raya prayers, singapore mosques, aidiladha prayers, raya prayer times, masjid singapore',
   openGraph: {
-    title: 'Solat Raya Aidiladha 2025 Singapore | Prayer Locations & Timings',
+    title: 'Solat Raya Aidiladha 2026 Singapore | Prayer Locations & Timings',
     description: 'Find Hari Raya Aidiladha prayers across Singapore mosques. View prayer times, khutbah languages & directions.',
     type: 'website',
     locale: 'en_SG',
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
         url: "/preview.jpg",
         width: 1200,
         height: 630,
-        alt: "Solat Raya 2025 Singapore"
+        alt: "Solat Raya 2026 Singapore"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Solat Raya Aidiladha 2025 Prayer Sessions",
-    description: "Find prayer sessions across various locations for Hari Raya Aidiladha 2025",
+    title: "Solat Raya Aidiladha 2026 Prayer Sessions",
+    description: "Find prayer sessions across various locations for Hari Raya Aidiladha 2026",
     images: ["/preview.jpg"]
   }
 }
@@ -49,7 +49,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "Solat Raya Aidiladha 2025 Singapore",
+              "name": "Solat Raya Aidiladha 2026 Singapore",
               "description": "Find Hari Raya Aidiladha prayer locations across Singapore mosques",
               "provider": {
                 "@type": "Organization",

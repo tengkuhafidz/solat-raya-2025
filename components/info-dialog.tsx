@@ -22,10 +22,10 @@ export function InfoDialog({ open, onOpenChange }: InfoDialogProps) {
         </DialogHeader>
         <div className="space-y-4 text-sm px-1">
           <section>
-            <h3 className="font-medium mb-2">Solat Raya 2025 Prayer Sessions</h3>
+            <h3 className="font-medium mb-2">Solat Raya 2026 Prayer Sessions</h3>
             <p className="text-gray-600">
               This is a mini project by Meem to help Muslims in Singapore find suitable Solat Raya prayer venues.
-              Data is sourced from <a href="https://www.instagram.com/p/DKRYAejuyTH/?igsh=bzExZjVtczNybHl1" className="text-primary hover:text-primary-dark underline" target="_blank" rel="noopener noreferrer">muis.sg <ExternalLink className="inline w-3 h-3" /></a>, Last updated on 31 May 2025.
+              Data is sourced from <a href="https://www.muis.gov.sg/community/mosque/" className="text-primary hover:text-primary-dark underline" target="_blank" rel="noopener noreferrer">muis.sg <ExternalLink className="inline w-3 h-3" /></a>, Last updated for 2026.
             </p>
           </section>
 
